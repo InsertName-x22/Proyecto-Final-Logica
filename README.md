@@ -2,7 +2,7 @@
 
 ## descripción
 
-##integrantes
+## integrantes
 - Juan David Barrientos
 - Santiago Sanchez
 
