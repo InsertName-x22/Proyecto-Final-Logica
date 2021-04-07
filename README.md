@@ -1,8 +1,8 @@
 ### Proyecto-Final-Logica
 
-## descripción
+## Descripción
 
-## integrantes
+## Integrantes
 - Juan David Barrientos
 - Santiago Sanchez
 
