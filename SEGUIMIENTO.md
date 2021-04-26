@@ -26,3 +26,18 @@
 - ¿Qué dificultades tenemos?
    
    De momento no hemos presentado dificultades
+   
+## 26 de abril del 2021 
+
+- ¿Qué hemos hecho?
+
+   Hemos hecho una interfaz grafica que contiene los botones que hizo el profesor en su reproductor 
+   de canciones, tiene una barra de busqueda y de momento solo funciona el boton de salir 
+   
+- ¿Qué vamos a hacer?
+
+   Tenemos pensado darle función a los botones restantes y a la barra de busqueda
+   
+- ¿Qué dificultades tenemos?
+
+   De momento solo problemas personales
