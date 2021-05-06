@@ -41,3 +41,19 @@
 - ¿Qué dificultades tenemos?
 
    De momento solo problemas personales
+   
+## 6 de Mayo del 2021 
+
+- ¿Qué hemos hecho?
+
+   Hemos cuadrado el programa para que imprima tildes y caracteres especiales como la ñ ademas 
+   de diseñar una interfaz de consola
+   
+- ¿Qué vamos a hacer?
+
+   Darle funcion a los botones para el funcionamiento del programa
+   
+- ¿Qué dificultades tenemos?
+
+   Solo problemas personales
+
