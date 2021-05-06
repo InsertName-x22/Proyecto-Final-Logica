@@ -4,7 +4,7 @@ public class Art {
 
     public static void main(String[] args) {
         System.out.println("                                 |                                                                                                                   |         ");
-        System.out.println("                                 |                                                                                                                   |            ");
+        System.out.println("                                 |     .---.  .---.     .-''-.    .---.     .---.     ,---.    ,---.  ___    _    .-'''-. .-./`)     _______         |                                                                                                         |            ");
         System.out.println("                                 |     |   |  |_ _|   .'_ _   \\   | ,_|     | ,_|     |    \\  /    |.'   |  | |  / _     \\\\ .-.')   /   __  \\        |                  ");
         System.out.println("                                 |     |   |  ( ' )  / ( ` )   ',-./  )   ,-./  )     |  ,  \\/  ,  ||   .'  | | (`' )/`--'/ `-' \\  | ,_/  \\__)       |             ");
         System.out.println("                                 |     |   '-(_{;}_). (_ o _)  |\\  '_ '`) \\  '_ '`)   |  |\\_   /|  |.'  '_  | |(_ o _).    `-'`'`,-./  )             |            ");
