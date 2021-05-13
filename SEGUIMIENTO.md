@@ -57,3 +57,17 @@
 
    Solo problemas personales
 
+## 12 de Mayo del 2021 
+
+- ¿Qué hemos hecho?
+
+   Cuadramos la consola para que la terminal pueda salir colores y se le puso color a la interfaz
+   
+- ¿Qué vamos a hacer?
+
+   Darle funcion a las opciones para el funcionamiento del programa
+   
+- ¿Qué dificultades tenemos?
+
+   Grandes problemas personales
+
