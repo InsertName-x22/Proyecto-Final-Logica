@@ -143,6 +143,11 @@ public class Programa {
         str = convertirUnicode("Ó", str);
         str = convertirUnicode("Ú", str);
         str = convertirUnicode("Ñ", str);
+        str = convertirUnicode("⢕", str);
+        str = convertirUnicode("⣿", str);
+        str = convertirUnicode("⠿", str);
+        str = convertirUnicode("⣛", str);
+        
         System.out.println(str);
     }
 
