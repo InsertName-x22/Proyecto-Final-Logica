@@ -206,7 +206,7 @@ public class Programa {
         }
 
         public static void main(String[] args) {
-            Audio audio = new audio();
+            Audio audio = new Audio();
             int opcion = 0, numero_cancion = 0, inicio_letra = 0, fin_letra = 0;
             String [] canciones; 
             String [][] info_canciones;
