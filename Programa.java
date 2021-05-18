@@ -1,3 +1,8 @@
+import org.fusesource.jansi.AnsiConsole;
+import static org.fusesource.jansi.Ansi.*;
+import static org.fusesource.jansi.Ansi.Color.*;
+import java.io.StringBufferInputStream;
+import java.util.*;
 public class Programa {
 
 
@@ -151,7 +156,22 @@ public class Programa {
         System.out.println(str);
     }
 
-    public static void main(String[] args) {
+    public static StringBuilder LetraCancion(int inicio, int fin, String[]data){
+        StringBuilder str = new StringBuilder();
+        StringTokenizer temp;
+
+        for(int i = inicio; i<=fin; i++){
+            temp = new StringTokenizer(data[i],";");
+
+            while(temp.hasMoreTokens()){
+                System.out.print(temp.nextToken()+" ");
+            }
+            System.out.println();
+        }
+        return str;
+    }
+
+    public static void menu(){
 
             System.out.println(A + "                                 |                                                                                                                   |         ");
             System.out.println(A + "                                 |" + CYAN + "     .---.  .---.     .-''-.    .---.     .---.     ,---.    ,---.  ___    _    .-'''-. " + YELLOW + ".-./`)     " + CYAN + "_______         " + A + "|                                                                                                         |            ");
@@ -184,7 +204,63 @@ public class Programa {
 
             System.out.println("áéíóúÁÉÍÓÚ");
         }
+
+        public static void main(String[] args) {
+            Audio audio = new audio();
+            int opcion = 0, numero_cancion = 0, inicio_letra = 0, fin_letra = 0;
+            String [] canciones; 
+            String [][] info_canciones;
+            StringBuilder letra_cancion;
+
+            canciones = ConsoleFile.readBigFile("recursos/letras.csv");
+            info_canciones = ConsoleData.dataList(canciones);
+
+            try {
+                do{
+                    System.out.println();
+                    menu();
+                    opcion = ConsoleInput.getInt();
+
+                    if(opcion == 2){
+                        imprimir("Ingrese el número de la canción, entre 0 y " + (info_canciones.length-1));
+                        numero_cancion = ConsoleInput.getInt();
+                        audio.seleccionarCancion(info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
+					    audio.reproducir();
+                    }
+                    if(opcion == 3){
+                        imprimir("Ingrese el número de la canción, entre 0 y " + (info_canciones.length-1));
+                        numero_cancion = ConsoleInput.getInt();
+                        inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
+					    fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
+					    letra_cancion = obtenerLetraCancion(inicio_letra,fin_letra,canciones);
+                    }
+                    if(opcion == 4){
+                        audio.detener();
+                    }
+                    if(opcion == 5){
+                        imprimir("Ingrese indice de la cancion, entre 0 y "+(info_canciones.length-1));
+					numero_cancion = ConsoleInput.getInt();
+					inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
+					fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
+					System.out.println();
+					imprimir("Inicio letra "+inicio_letra);
+					imprimir("Fin letra "+fin_letra);
+					imprimir("Nombre "+info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
+					imprimir("Autor "+info_canciones[numero_cancion][ConsoleData.AUTOR_CANCION]);
+					imprimir("Archivo "+info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
+					imprimir("Primera estrofa: "+canciones[inicio_letra]);
+					imprimir("Última estrofa: "+canciones[fin_letra]);
+                    }
+                }while(opcion!=6);
+            } 
+            catch (Exception e){
+                System.out.println(e);
+            }
+            finally{
+                audio.detener();
+            }
     }
+}
 
 
 
