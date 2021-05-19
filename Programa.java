@@ -34,12 +34,12 @@ public class Programa {
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @@@").fg(CYAN).a("./&&&&&&&&&&%.&&&&%..").fg(WHITE).a("@@").fg(CYAN).a(".*&&&&&&,&&&&&&&*.").fg(WHITE).a("@@@@").fg(CYAN).a(".%&&&&&%*&&&&&*&&&&&&&").fg(WHITE).a("                      @@@").fg(CYAN).a("./&&&&&&&&&&%.&&&&%.").fg(WHITE).a(".@@").fg(CYAN).a(".*&&&&&&,&&&&&&&*.").fg(WHITE).a("@@@@").fg(CYAN).a(".%&&&&&%*&&&&&*&&&&&&&    ").fg(WHITE).a("|                          ").reset());
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @@").fg(CYAN).a("..&&&&&&&&&&..&&&%..").fg(WHITE).a("@@@@").fg(CYAN).a(",.&&&&&.*&&&&&&..").fg(WHITE).a("@@@@@@").fg(CYAN).a(".(&&&&&,*%&&&,&&&&&&&").fg(WHITE).a("                      @@").fg(CYAN).a("..&&&&&&&&&&..&&&%.").fg(WHITE).a(".@@@@").fg(CYAN).a(",.&&&&&.*&&&&&&..").fg(WHITE).a("@@@@@@").fg(CYAN).a(".(&&&&&,*%&&&,&&&&&&&    ").fg(WHITE).a("|                             ").reset());
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @@").fg(CYAN).a(".&&&&&&&&&#.(&&/").fg(WHITE).a("  ..   ..").fg(CYAN).a("  &&&&.,&&&&&.").fg(WHITE).a(",@&,,.... ").fg(CYAN).a(".&&&&&.,&&&**&&&&&&").fg(WHITE).a("                      @@").fg(CYAN).a(".&&&&&&&&&#.(&&/").fg(WHITE).a(". ..   ..  ").fg(CYAN).a("&&&&.,&&&&&.,").fg(WHITE).a("@&,,.... ").fg(CYAN).a(".&&&&&.,&&&**&&&&&&    ").fg(WHITE).a("|                                         ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(",.&&&&&&%%./&/").fg(WHITE).a(" ,@@@@@@@@@@@").fg(CYAN).a(",*&&&..&&%,.").fg(WHITE).a("@@@@@@@@@@@@").fg(CYAN).a(",/&*/&*.&&%.&&&&&&").fg(WHITE).a("       Opcion 1       @").fg(CYAN).a(",.&&&&&&%%./&/").fg(WHITE).a(" ,@@@@@@@@@@@").fg(CYAN).a(",*&&&..&&%,.").fg(WHITE).a("@@@@@@@@@@@@").fg(CYAN).a(",/&*/&*.&&%.&&&&&&    ").fg(WHITE).a("|                                    ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".%&&&&,#..").fg(WHITE).a(".@@@@@@@@@@@@@@@@@").fg(CYAN).a("(.%&&..,%").fg(WHITE).a("@@@@@@@@@@@@@@@@").fg(CYAN).a(",,&&&&,%%.&&&&&&").fg(WHITE).a("       Opcion 2       @").fg(CYAN).a(".%&&&&,#..").fg(WHITE).a(".@@@@@@@@@@@@@@@@@").fg(CYAN).a("(.%&&..,").fg(WHITE).a("%@@@@@@@@@@@@@@@@,").fg(CYAN).a(",&&&&,%%.&&&&&&    ").fg(WHITE).a("|                              ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".&&&&.(&% ").fg(WHITE).a(" @@@@@@@@@@@@@@#@@@@@").fg(CYAN).a(",/&/,").fg(WHITE).a("@@@@@@%&@@@@@@@@@@@@").fg(CYAN).a("**&&&,.&&&&&&").fg(WHITE).a("       Opcion 3       @").fg(CYAN).a(".&&&&.(&%").fg(WHITE).a("  @@@@@@@@@@@@@@#@@@@@").fg(CYAN).a(",/&/,").fg(WHITE).a("@@@@@@%&@@@@@@@@@@@@").fg(CYAN).a("**&&&,.&&&&&&    ").fg(WHITE).a("|                           ").reset());
+        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(",.&&&&&&%%./&/").fg(WHITE).a(" ,@@@@@@@@@@@").fg(CYAN).a(",*&&&..&&%,.").fg(WHITE).a("@@@@@@@@@@@@").fg(CYAN).a(",/&*/&*.&&%.&&&&&&").fg(WHITE).a("       1.Lista canciones        @").fg(CYAN).a(",.&&&&&&%%./&/").fg(WHITE).a(" ,@@@@@@@@@@@").fg(CYAN).a(",*&&&..&&%,.").fg(WHITE).a("@@@@@@@@@@@@").fg(CYAN).a(",/&*/&*.&&%.&&&&&&    ").fg(WHITE).a("|                                    ").reset());
+        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".%&&&&,#..").fg(WHITE).a(".@@@@@@@@@@@@@@@@@").fg(CYAN).a("(.%&&..,%").fg(WHITE).a("@@@@@@@@@@@@@@@@").fg(CYAN).a(",,&&&&,%%.&&&&&&").fg(WHITE).a("       2.Reproducir cancion       @").fg(CYAN).a(".%&&&&,#..").fg(WHITE).a(".@@@@@@@@@@@@@@@@@").fg(CYAN).a("(.%&&..,").fg(WHITE).a("%@@@@@@@@@@@@@@@@,").fg(CYAN).a(",&&&&,%%.&&&&&&    ").fg(WHITE).a("|                              ").reset());
+        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".&&&&.(&% ").fg(WHITE).a(" @@@@@@@@@@@@@@#@@@@@").fg(CYAN).a(",/&/,").fg(WHITE).a("@@@@@@%&@@@@@@@@@@@@").fg(CYAN).a("**&&&,.&&&&&&").fg(WHITE).a("       3.Letras      @").fg(CYAN).a(".&&&&.(&%").fg(WHITE).a("  @@@@@@@@@@@@@@#@@@@@").fg(CYAN).a(",/&/,").fg(WHITE).a("@@@@@@%&@@@@@@@@@@@@").fg(CYAN).a("**&&&,.&&&&&&    ").fg(WHITE).a("|                           ").reset());
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".&&&.,&&&%").fg(WHITE).a(" @@@@..@@@@@@@@.*@@@@@@@@@@@@@@@../@@@@@@@@..@@@@@@").fg(CYAN).a("*.&&&&&&").fg(WHITE).a("       Opcion 4       @").fg(CYAN).a(".&&&.,&&&%").fg(WHITE).a(" @@@@..@@@@@@@@.*@@@@@@@@@@@@@@@../@@@@@@@@..@@@@@@*").fg(CYAN).a(".&&&&&&    ").fg(WHITE).a("|                           ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&").fg(WHITE).a("       Opcion 5       @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&    ").fg(WHITE).a("|                               ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a("(*,,.&&&&%").fg(WHITE).a(".%&&&#         @@@@@@@@@@@@@@@@@@           @@@@@@@").fg(CYAN).a(".%&&&&&&").fg(WHITE).a("       Opcion 6       @").fg(CYAN).a("(*,,.&&&&%").fg(WHITE).a(".%&&&#         @@@@@@@@@@@@@@@@@@           @@@@@@@").fg(CYAN).a(".%&&&&&&    ").fg(WHITE).a("|                   ").reset());
+        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&").fg(WHITE).a("       Indice canciones       @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&    ").fg(WHITE).a("|                               ").reset());
+        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a("(*,,.&&&&%").fg(WHITE).a(".%&&&#         @@@@@@@@@@@@@@@@@@           @@@@@@@").fg(CYAN).a(".%&&&&&&").fg(WHITE).a("       Salir       @").fg(CYAN).a("(*,,.&&&&%").fg(WHITE).a(".%&&&#         @@@@@@@@@@@@@@@@@@           @@@@@@@").fg(CYAN).a(".%&&&&&&    ").fg(WHITE).a("|                   ").reset());
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @@").fg(CYAN).a(",.%.&%%%#").fg(RED).a("**%%%%%%%&&&&").fg(WHITE).a("@@&,@@@@@@@@@@@@@..@@@@").fg(RED).a("&, .%&&&&&&&@@").fg(CYAN).a(",.&&&&&&&").fg(WHITE).a("                      @@").fg(CYAN).a(",.%.&%%%#").fg(RED).a("**%%%%%%%&&&&").fg(WHITE).a("@@&,@@@@@@@@@@@@@..@@@@").fg(RED).a("&, .%&&&&&&&@@").fg(CYAN).a(",.&&&&&&&    ").fg(WHITE).a("|                           ").reset());
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @@&").fg(CYAN).a("//.&%%%%").fg(RED).a(" ,%%%%%%%%%&&&").fg(WHITE).a("@@  @@@.. .@@@@  (@@").fg(RED).a("&&&&%%%%%%%%&&&@").fg(CYAN).a(".%&&&&&&&").fg(WHITE).a("                      @@&").fg(CYAN).a("//.&%%%%").fg(RED).a(" ,%%%%%%%%%&&&").fg(WHITE).a("@@  @@@.. .@@@@  (@@").fg(RED).a("&&&&%%%%%%%%&&&@").fg(CYAN).a(".%&&&&&&&    ").fg(WHITE).a("|                              ").reset());
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @@@@").fg(CYAN).a(",.%%%%#").fg(RED).a(" %%%%%%%%%%&&").fg(WHITE).a("@@@@..  .@@..  . @@@").fg(RED).a("&&&&%%%%%%%%%%%&").fg(CYAN).a(".,%%&&&&&&").fg(WHITE).a("                      @@@@").fg(CYAN).a(",.%%%%#").fg(RED).a(" %%%%%%%%%%&&").fg(WHITE).a("@@@@..  .@@..  . @@@").fg(RED).a("&&&&%%%%%%%%%%%&").fg(CYAN).a(".,%%&&&&&&    ").fg(WHITE).a("|                              ").reset());
@@ -152,31 +152,99 @@ public class Programa {
         info_canciones = ConsoleData.dataList(canciones);
 
         try {
+            System.out.println();
+            menu();
+
+
             do {
-                System.out.println();
-                menu();
                 opcion = ConsoleInput.getInt();
 
+                if(opcion == 1){
+                    imprimir("  1.Rosas");
+                    imprimir("  2.Me gustas tu");
+                    imprimir("  3.Rayando el sol");
+                    imprimir("  4.A Dios le pido");
+                    imprimir("  5.La camisa negra");
+                    imprimir("  6.Vivo por ella");
+                    imprimir("  7.Maldito duende");
+                    imprimir("  8.En algun lugar");
+                    imprimir("  9.Como camaron");
+                    imprimir("  10.Gasolina");
+                    imprimir("  11.Dame amor");
+                    imprimir("  12.Laura");
+                    imprimir("  13.Nada valgo sin tu amor");
+                    imprimir("  14.Vinotinto");
+                    imprimir("  15.Cuando sea grande");
+                    imprimir("  16.Cielo");
+                    imprimir("  17.La raja de tu falda");
+                }
+
+
                 if (opcion == 2) {
-                    imprimir("Ingrese el número de la canción, entre 0 y " + (info_canciones.length - 1));
+                    imprimir("Ingrese el número de la canción, entre 1 y " + (info_canciones.length ));
                     numero_cancion = ConsoleInput.getInt();
                     audio.seleccionarCancion(info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
                     audio.reproducir();
+                    System.out.println("");
+                    System.out.println("Desea mirar la letra si/no");
+
+                    Scanner datos4 = new Scanner(System.in);
+                    String respuesta4 = datos4.nextLine();
+                    respuesta4 = respuesta4.toLowerCase();
+                    if(respuesta4.equals("si")) {
+                        inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
+                        fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
+                        letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);
+                    }
+
+
+                    System.out.println("");
+                    System.out.println("Desea volver al menu si/no");
+
+                    Scanner datos = new Scanner(System.in);
+                    String respuesta = datos.nextLine();
+                    respuesta = respuesta.toLowerCase();
+                    if(respuesta.equals("si"))
+                    {
+                    System.out.println();
+                    menu();
+                    audio.detener();
+                    }
                 }
                 if (opcion == 3) {
-                    imprimir("Ingrese el número de la canción, entre 0 y " + (info_canciones.length - 1));
+                    imprimir("Ingrese el número de la canción, entre 1 y " + (info_canciones.length));
                     numero_cancion = ConsoleInput.getInt();
                     inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
                     fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
                     letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);
 
                     imprimir(letra_cancion.toString());
+                    System.out.println("Desea volver al menu si/no");
+
+                    Scanner datos1 = new Scanner(System.in);
+                    String respuesta1 = datos1.nextLine();
+                    respuesta1 = respuesta1.toLowerCase();
+                    if (respuesta1.equals("si")) {
+                        System.out.println();
+                        menu();
+                    }
                 }
+
                 if (opcion == 4) {
-                    audio.detener();
+
+
+                    System.out.println("");
+                    System.out.println("Desea volver al menu si/no");
+
+                    Scanner datos2 = new Scanner(System.in);
+                    String respuesta2 = datos2.nextLine();
+                    respuesta2 = respuesta2.toLowerCase();
+                    if(respuesta2.equals("si")){
+                        System.out.println();
+                        menu();}
                 }
                 if (opcion == 5) {
-                    imprimir("Ingrese indice de la cancion, entre 0 y " + (info_canciones.length - 1));
+                    imprimir("Ingrese indice de la cancion, entre 1 y " + (info_canciones.length ));
                     numero_cancion = ConsoleInput.getInt();
                     inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
                     fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
@@ -188,6 +256,12 @@ public class Programa {
                     imprimir("Archivo " + info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
                     imprimir("Primera estrofa: " + canciones[inicio_letra]);
                     imprimir("Última estrofa: " + canciones[fin_letra]);
+                    Scanner datos3 = new Scanner(System.in);
+                    String respuesta3 = datos3.nextLine();
+                    respuesta3 = respuesta3.toLowerCase();
+                    if(respuesta3.equals("si")){
+                        System.out.println();
+                        menu();}
                 }
             } while (opcion != 6);
         } catch (Exception e) {
