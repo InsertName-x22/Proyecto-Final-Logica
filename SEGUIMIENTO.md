@@ -71,3 +71,17 @@
 
    Grandes problemas personales
 
+## 18 de Mayo del 2021 
+
+- ¿Qué hemos hecho?
+
+   Cuadramos la consola para que la terminal de windows pueda salir colores atraves de la inclusion de
+   la jansi y se cambio la interfaz y se agregaron las funciones de las opciones
+   
+- ¿Qué vamos a hacer?
+
+   Mejorar las funciones y corregir los errores
+   
+- ¿Qué dificultades tenemos?
+
+  Errores al momento de crear las funciones
