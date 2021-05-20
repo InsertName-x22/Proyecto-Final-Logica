@@ -209,7 +209,7 @@ public class Programa {
                         }
 
                         System.out.println("");
-                        System.out.println("Desea escuchar otra cancion si/no ");
+                        imprimir("Desea escuchar otra canción si/no ");
                         Scanner datos5 = new Scanner(System.in);
                         respuesta5 = datos5.nextLine();
                         respuesta5 = respuesta5.toLowerCase();
@@ -282,7 +282,7 @@ public class Programa {
                             letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);
                         }
                         System.out.println("");
-                        System.out.println("Desea escuchar otra cancion si/no ");
+                        imprimir("Desea escuchar otra canción si/no ");
                         Scanner datos5 = new Scanner(System.in);
                         respuesta8 = datos5.nextLine();
                         respuesta8 = respuesta8.toLowerCase();
@@ -304,7 +304,7 @@ public class Programa {
                 }
 
                 if (opcion == 5) {
-                    imprimir("Ingrese indice de la cancion, entre 0 y " + (info_canciones.length-1 ));
+                    imprimir("Ingrese indice de la canción, entre 0 y " + (info_canciones.length-1 ));
                     numero_cancion = ConsoleInput.getInt();
                     inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
                     fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
