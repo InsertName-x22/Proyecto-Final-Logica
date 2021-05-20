@@ -190,9 +190,12 @@ public class Programa {
                     String respuesta5;
                     do {
                         audio.detener();
+                        System.out.println("");
                         imprimir("Ingrese el número de la canción, entre 0 y " + (info_canciones.length - 1));
                         numero_cancion = ConsoleInput.getInt();
-                        imprimir("Nombre: " + info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
+
+                        System.out.println(ansi().eraseScreen().fg(CYAN).a("Nombre:").reset());
+                        imprimir(info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
                         audio.seleccionarCancion(info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
                         audio.reproducir();
 
@@ -231,21 +234,28 @@ public class Programa {
                 if (opcion == 3) {
                     String respuesta9;
                     do {
+                        System.out.println("");
                         imprimir("Ingrese el número de la canción, entre 0 y " + (info_canciones.length - 1));
                         numero_cancion = ConsoleInput.getInt();
+                        System.out.println(ansi().eraseScreen().fg(CYAN).a("Nombre:").reset());
+                        imprimir(info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
+                        System.out.println("");
                         inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
                         fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
                         letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);
 
                         imprimir(letra_cancion.toString());
-                        System.out.println("");
+
+
                         imprimir("Desea ver otras letras de otra canción si/no ");
                         Scanner datos5 = new Scanner(System.in);
                         respuesta9 = datos5.nextLine();
                         respuesta9 = respuesta9.toLowerCase();
                         
                     }while(respuesta9.equals("si"));
-                        System.out.println("Desea volver al menu si/no");
+
+                    System.out.println("");
+                    System.out.println("Desea volver al menu si/no");
                     Scanner datos1 = new Scanner(System.in);
                     String respuesta1 = datos1.nextLine();
                     respuesta1 = respuesta1.toLowerCase();
@@ -267,10 +277,13 @@ public class Programa {
                         audio.seleccionarCancion(info_canciones[numero_cancion1][ConsoleData.RUTA_CANCION]);
                         audio.reproducir();
 
-                        imprimir("Nombre: " + info_canciones[numero_cancion1][ConsoleData.NOMBRE_CANCION]);
+                        System.out.println("");
+                        System.out.println(ansi().eraseScreen().fg(CYAN).a("Nombre:").reset());
+                        imprimir(info_canciones[numero_cancion1][ConsoleData.NOMBRE_CANCION]);
 
                         System.out.println("");
                         System.out.println("Desea mirar la letra si/no");
+                        System.out.println("");
 
                         Scanner datos6 = new Scanner(System.in);
                         String respuesta6 = datos6.nextLine();
@@ -310,13 +323,18 @@ public class Programa {
                     fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
                     System.out.println();
 
-
-                    imprimir("Nombre : " + info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
-                    imprimir("Autor  : " + info_canciones[numero_cancion][ConsoleData.AUTOR_CANCION]);
-                    imprimir("Archivo: " + info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
-                    imprimir("Album  : " + info_canciones[numero_cancion][ConsoleData.ALBUM_CANCION]);
-                    imprimir("Año    : " + info_canciones[numero_cancion][ConsoleData.ANO_CANCION]);
-                    imprimir("Link   : " + info_canciones[numero_cancion][ConsoleData.RUTA_LINK]);
+                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Nombre :").reset());
+                    imprimir(info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
+                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Autor  :").reset());
+                    imprimir(info_canciones[numero_cancion][ConsoleData.AUTOR_CANCION]);
+                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Archivo:").reset());
+                    imprimir(info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
+                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Album  :").reset());
+                    imprimir(info_canciones[numero_cancion][ConsoleData.ALBUM_CANCION]);
+                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Año    :").reset());
+                    imprimir(info_canciones[numero_cancion][ConsoleData.ANO_CANCION]);
+                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Link:  :").reset());
+                    imprimir(info_canciones[numero_cancion][ConsoleData.RUTA_LINK]);
 
                     System.out.println("");
                     System.out.println("Desea volver al menu si/no");
