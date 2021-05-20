@@ -2,7 +2,7 @@ import org.fusesource.jansi.AnsiConsole;
 import static org.fusesource.jansi.Ansi.*;
 import static org.fusesource.jansi.Ansi.Color.*;
 import static org.fusesource.jansi.Ansi.Color.WHITE;
-
+import java.io.*;
 import java.io.StringBufferInputStream;
 import java.util.*;
 public class Programa {
@@ -186,9 +186,6 @@ public class Programa {
         canciones = ConsoleFile.readBigFile("recursos/letras.csv");
         info_canciones = ConsoleData.dataList(canciones);
 
-
-
-
         try {
             System.out.println();
             menu();
@@ -198,23 +195,23 @@ public class Programa {
                 opcion = ConsoleInput.getInt();
 
                 if(opcion == 1){
-                    imprimir("  0.Rosas");
-                    imprimir("  1.Me gustas tu");
-                    imprimir("  2.Rayando el sol");
-                    imprimir("  3.A Dios le pido");
-                    imprimir("  4.La camisa negra");
-                    imprimir("  5.Vivo por ella");
-                    imprimir("  6.Maldito duende");
-                    imprimir("  7.En algun lugar");
-                    imprimir("  8.Como camaron");
-                    imprimir("  9.Gasolina");
-                    imprimir("  10.Dame amor");
-                    imprimir("  11.Laura");
-                    imprimir("  12.Nada valgo sin tu amor");
-                    imprimir("  13.Vinotinto");
-                    imprimir("  14.Cuando sea grande");
-                    imprimir("  15.Cielo");
-                    imprimir("  16.La raja de tu falda");
+                    File lista = new File("canciones");
+                    String[] nombre = lista.list();
+
+                    int a = 0;
+                    for(int i=0; i<nombre.length; i++){
+                        System.out.println(a + ". " + nombre[i]);
+                        a++;
+                    }
+                    
+                    System.out.println("Desea volver al menu si/no");
+                    Scanner datos7 = new Scanner(System.in);
+                    String respuesta7 = datos7.nextLine();
+                    respuesta7 = respuesta7.toLowerCase();
+                    if (respuesta7.equals("si")) {
+                        System.out.println();
+                        menu();
+                    }
                 }
 
 
