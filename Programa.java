@@ -123,40 +123,9 @@ public class Programa {
 
         System.out.println(str);
     }
-    public static void imprimir2(String cadena) {
-        String str;
-        str = convertirUnicode("á", cadena);
-        str = convertirUnicode("é", str);
-        str = convertirUnicode("í", str);
-        str = convertirUnicode("ó", str);
-        str = convertirUnicode("ú", str);
-        str = convertirUnicode("ñ", str);
-        str = convertirUnicode("Á", str);
-        str = convertirUnicode("É", str);
-        str = convertirUnicode("Í", str);
-        str = convertirUnicode("Ó", str);
-        str = convertirUnicode("Ú", str);
-        str = convertirUnicode("Ñ", str);
 
-        System.out.println(ansi().eraseScreen().fg(MAGENTA).a(str).reset());
-    }
-    public static void imprimir3(String cadena) {
-        String str;
-        str = convertirUnicode("á", cadena);
-        str = convertirUnicode("é", str);
-        str = convertirUnicode("í", str);
-        str = convertirUnicode("ó", str);
-        str = convertirUnicode("ú", str);
-        str = convertirUnicode("ñ", str);
-        str = convertirUnicode("Á", str);
-        str = convertirUnicode("É", str);
-        str = convertirUnicode("Í", str);
-        str = convertirUnicode("Ó", str);
-        str = convertirUnicode("Ú", str);
-        str = convertirUnicode("Ñ", str);
 
-        System.out.println(ansi().eraseScreen().fg(YELLOW).a(str).reset());
-    }
+
 
     public static StringBuilder obtenerLetraCancion(int inicio, int fin, String[] data) {
         StringBuilder str = new StringBuilder();
