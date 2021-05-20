@@ -176,10 +176,8 @@ public class Programa {
                     }
                     
                     System.out.println("Desea volver al menu si/no");
-                    Scanner datos7 = new Scanner(System.in);
-                    String respuesta7 = datos7.nextLine();
-                    respuesta7 = respuesta7.toLowerCase();
-                    if (respuesta7.equals("si")) {
+                    String respuesta = ConsoleInput.getString();
+                    if (respuesta.equals("si")) {
                         System.out.println();
                         menu();
                     }
@@ -189,7 +187,7 @@ public class Programa {
                 if (opcion == 2) {
 
 
-                    String respuesta5;
+
 
                     System.out.println("");
                     System.out.println("");
@@ -247,6 +245,7 @@ public class Programa {
                     System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a("mdhhhhmNssh:yy:syso").fg(WHITE).a("+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMM").reset());
 
 
+                    String respuesta1;
                     do {
                         audio.detener();
 
@@ -264,10 +263,10 @@ public class Programa {
                         System.out.println("");
                         System.out.println(ansi().eraseScreen().fg(CYAN).a("Desea mirar la letra si/no").reset());
 
-                        Scanner datos4 = new Scanner(System.in);
-                        String respuesta4 = datos4.nextLine();
-                        respuesta4 = respuesta4.toLowerCase();
-                        if (respuesta4.equals("si")) {
+
+                        String respuesta = ConsoleInput.getString();
+
+                        if (respuesta.equals("si")) {
                             inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
                             fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
                             letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);
@@ -275,18 +274,14 @@ public class Programa {
 
                         System.out.println("");
                         imprimir("Desea escuchar otra canción si/no ");
-                        Scanner datos5 = new Scanner(System.in);
-                        respuesta5 = datos5.nextLine();
-                        respuesta5 = respuesta5.toLowerCase();
+                        respuesta1 = ConsoleInput.getString();
 
-                    } while (respuesta5.equals("si"));
+                    } while (respuesta1.equals("si"));
 
                     System.out.println("");
                     System.out.println("Desea volver al menu si/no");
 
-                    Scanner datos7 = new Scanner(System.in);
-                    String respuesta = datos7.nextLine();
-                    respuesta = respuesta.toLowerCase();
+                    String respuesta = ConsoleInput.getString();
                     if (respuesta.equals("si")) {
                         System.out.println();
                         menu();
@@ -297,7 +292,7 @@ public class Programa {
   //-----------------------------------------------------------------------------------------Letras--------------------------------------------------------------------------------//
 
                 if (opcion == 3) {
-                    String respuesta9;
+
 
                     System.out.println("");
                     System.out.println("");
@@ -355,6 +350,7 @@ public class Programa {
                     System.out.println("MMMMNNNdyso+ooooooooossyyys/+s.--::---::::::-------.....-/+sydNNNNNMNMNMMMMMMMMM");
 
 
+                    String respuesta;
                     do {
                         System.out.println("");
                         imprimir("Ingrese el número de la canción, entre 0 y " + (info_canciones.length - 1));
@@ -371,16 +367,13 @@ public class Programa {
 
                         imprimir("Desea ver otras letras de otra canción si/no ");
                         Scanner datos5 = new Scanner(System.in);
-                        respuesta9 = datos5.nextLine();
-                        respuesta9 = respuesta9.toLowerCase();
-                        
-                    }while(respuesta9.equals("si"));
+                         respuesta = ConsoleInput.getString();
+
+                    }while(respuesta.equals("si"));
 
                     System.out.println("");
                     System.out.println("Desea volver al menu si/no");
-                    Scanner datos1 = new Scanner(System.in);
-                    String respuesta1 = datos1.nextLine();
-                    respuesta1 = respuesta1.toLowerCase();
+                    String respuesta1 = ConsoleInput.getString();
                     if (respuesta1.equals("si")) {
                         System.out.println();
                         menu();
@@ -440,10 +433,10 @@ public class Programa {
                     System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMd//////odNmmmmmmmNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNNNNNdhhmMMMMMM").reset());
 
 
-                    String respuesta8;
 
 
 
+                    String respuesta1;
                     do {
                         audio.detener();
 
@@ -461,30 +454,27 @@ public class Programa {
                         System.out.println("Desea mirar la letra si/no");
                         System.out.println("");
 
-                        Scanner datos6 = new Scanner(System.in);
-                        String respuesta6 = datos6.nextLine();
-                        respuesta6 = respuesta6.toLowerCase();
+                        String respuesta = ConsoleInput.getString();
 
-                        if (respuesta6.equals("si")) {
+                        if (respuesta.equals("si")) {
                             inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
                             fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
                             letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);
                         }
+
+
                         System.out.println("");
                         imprimir("Desea escuchar otra canción si/no ");
-                        Scanner datos5 = new Scanner(System.in);
-                        respuesta8 = datos5.nextLine();
-                        respuesta8 = respuesta8.toLowerCase();
+                         respuesta1 = ConsoleInput.getString();
+
+                    }while(respuesta1.equals("si"));
 
 
-                    }while(respuesta8.equals("si"));
 
                     System.out.println("");
                     System.out.println("Desea volver al menu si/no");
 
-                    Scanner datos2 = new Scanner(System.in);
-                    String respuesta2 = datos2.nextLine();
-                    respuesta2 = respuesta2.toLowerCase();
+                    String respuesta2 = ConsoleInput.getString();
                     if (respuesta2.equals("si")) {
                         audio.detener();
                         System.out.println();
@@ -547,10 +537,8 @@ public class Programa {
 
                     System.out.println("");
                     System.out.println("Desea volver al menu si/no");
-                    Scanner datos3 = new Scanner(System.in);
-                    String respuesta3 = datos3.nextLine();
-                    respuesta3 = respuesta3.toLowerCase();
-                    if(respuesta3.equals("si")){
+                    String respuesta = ConsoleInput.getString();
+                    if(respuesta.equals("si")){
                         System.out.println();
                         menu();}
                 }
