@@ -37,8 +37,8 @@ public class Programa {
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(",.&&&&&&%%./&/").fg(WHITE).a(" ,@@@@@@@@@@@").fg(CYAN).a(",*&&&..&&%,.").fg(WHITE).a("@@@@@@@@@@@@").fg(CYAN).a(",/&*/&*.&&%.&&&&&&").fg(WHITE).a("       1.Lista canciones        @").fg(CYAN).a(",.&&&&&&%%./&/").fg(WHITE).a(" ,@@@@@@@@@@@").fg(CYAN).a(",*&&&..&&%,.").fg(WHITE).a("@@@@@@@@@@@@").fg(CYAN).a(",/&*/&*.&&%.&&&&&&    ").fg(WHITE).a("|                                    ").reset());
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".%&&&&,#..").fg(WHITE).a(".@@@@@@@@@@@@@@@@@").fg(CYAN).a("(.%&&..,%").fg(WHITE).a("@@@@@@@@@@@@@@@@").fg(CYAN).a(",,&&&&,%%.&&&&&&").fg(WHITE).a("       2.Reproducir cancion       @").fg(CYAN).a(".%&&&&,#..").fg(WHITE).a(".@@@@@@@@@@@@@@@@@").fg(CYAN).a("(.%&&..,").fg(WHITE).a("%@@@@@@@@@@@@@@@@,").fg(CYAN).a(",&&&&,%%.&&&&&&    ").fg(WHITE).a("|                              ").reset());
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".&&&&.(&% ").fg(WHITE).a(" @@@@@@@@@@@@@@#@@@@@").fg(CYAN).a(",/&/,").fg(WHITE).a("@@@@@@%&@@@@@@@@@@@@").fg(CYAN).a("**&&&,.&&&&&&").fg(WHITE).a("       3.Letras      @").fg(CYAN).a(".&&&&.(&%").fg(WHITE).a("  @@@@@@@@@@@@@@#@@@@@").fg(CYAN).a(",/&/,").fg(WHITE).a("@@@@@@%&@@@@@@@@@@@@").fg(CYAN).a("**&&&,.&&&&&&    ").fg(WHITE).a("|                           ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".&&&.,&&&%").fg(WHITE).a(" @@@@..@@@@@@@@.*@@@@@@@@@@@@@@@../@@@@@@@@..@@@@@@").fg(CYAN).a("*.&&&&&&").fg(WHITE).a("       Opcion 4       @").fg(CYAN).a(".&&&.,&&&%").fg(WHITE).a(" @@@@..@@@@@@@@.*@@@@@@@@@@@@@@@../@@@@@@@@..@@@@@@*").fg(CYAN).a(".&&&&&&    ").fg(WHITE).a("|                           ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&").fg(WHITE).a("       Indice canciones       @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&    ").fg(WHITE).a("|                               ").reset());
+        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".&&&.,&&&%").fg(WHITE).a(" @@@@..@@@@@@@@.*@@@@@@@@@@@@@@@../@@@@@@@@..@@@@@@").fg(CYAN).a("*.&&&&&&").fg(WHITE).a("       4. Random       @").fg(CYAN).a(".&&&.,&&&%").fg(WHITE).a(" @@@@..@@@@@@@@.*@@@@@@@@@@@@@@@../@@@@@@@@..@@@@@@*").fg(CYAN).a(".&&&&&&    ").fg(WHITE).a("|                           ").reset());
+        System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&").fg(WHITE).a("       5. Indice canciones       @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&    ").fg(WHITE).a("|                               ").reset());
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @").fg(CYAN).a("(*,,.&&&&%").fg(WHITE).a(".%&&&#         @@@@@@@@@@@@@@@@@@           @@@@@@@").fg(CYAN).a(".%&&&&&&").fg(WHITE).a("       Salir       @").fg(CYAN).a("(*,,.&&&&%").fg(WHITE).a(".%&&&#         @@@@@@@@@@@@@@@@@@           @@@@@@@").fg(CYAN).a(".%&&&&&&    ").fg(WHITE).a("|                   ").reset());
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @@").fg(CYAN).a(",.%.&%%%#").fg(RED).a("**%%%%%%%&&&&").fg(WHITE).a("@@&,@@@@@@@@@@@@@..@@@@").fg(RED).a("&, .%&&&&&&&@@").fg(CYAN).a(",.&&&&&&&").fg(WHITE).a("                      @@").fg(CYAN).a(",.%.&%%%#").fg(RED).a("**%%%%%%%&&&&").fg(WHITE).a("@@&,@@@@@@@@@@@@@..@@@@").fg(RED).a("&, .%&&&&&&&@@").fg(CYAN).a(",.&&&&&&&    ").fg(WHITE).a("|                           ").reset());
         System.out.println(ansi().eraseScreen().fg(WHITE).a("                |    @@&").fg(CYAN).a("//.&%%%%").fg(RED).a(" ,%%%%%%%%%&&&").fg(WHITE).a("@@  @@@.. .@@@@  (@@").fg(RED).a("&&&&%%%%%%%%&&&@").fg(CYAN).a(".%&&&&&&&").fg(WHITE).a("                      @@&").fg(CYAN).a("//.&%%%%").fg(RED).a(" ,%%%%%%%%%&&&").fg(WHITE).a("@@  @@@.. .@@@@  (@@").fg(RED).a("&&&&%%%%%%%%&&&@").fg(CYAN).a(".%&&&&&&&    ").fg(WHITE).a("|                              ").reset());
@@ -123,6 +123,40 @@ public class Programa {
 
         System.out.println(str);
     }
+    public static void imprimir2(String cadena) {
+        String str;
+        str = convertirUnicode("á", cadena);
+        str = convertirUnicode("é", str);
+        str = convertirUnicode("í", str);
+        str = convertirUnicode("ó", str);
+        str = convertirUnicode("ú", str);
+        str = convertirUnicode("ñ", str);
+        str = convertirUnicode("Á", str);
+        str = convertirUnicode("É", str);
+        str = convertirUnicode("Í", str);
+        str = convertirUnicode("Ó", str);
+        str = convertirUnicode("Ú", str);
+        str = convertirUnicode("Ñ", str);
+
+        System.out.println(ansi().eraseScreen().fg(MAGENTA).a(str).reset());
+    }
+    public static void imprimir3(String cadena) {
+        String str;
+        str = convertirUnicode("á", cadena);
+        str = convertirUnicode("é", str);
+        str = convertirUnicode("í", str);
+        str = convertirUnicode("ó", str);
+        str = convertirUnicode("ú", str);
+        str = convertirUnicode("ñ", str);
+        str = convertirUnicode("Á", str);
+        str = convertirUnicode("É", str);
+        str = convertirUnicode("Í", str);
+        str = convertirUnicode("Ó", str);
+        str = convertirUnicode("Ú", str);
+        str = convertirUnicode("Ñ", str);
+
+        System.out.println(ansi().eraseScreen().fg(YELLOW).a(str).reset());
+    }
 
     public static StringBuilder obtenerLetraCancion(int inicio, int fin, String[] data) {
         StringBuilder str = new StringBuilder();
@@ -138,6 +172,7 @@ public class Programa {
         }
         return str;
     }
+
 
 
 
@@ -181,12 +216,12 @@ public class Programa {
 
 
                 if (opcion == 2) {
-                    imprimir("Ingrese el número de la canción, entre 1 y " + (info_canciones.length ));
+                    imprimir2("Ingrese el número de la canción, entre 1 y " + (info_canciones.length ));
                     numero_cancion = ConsoleInput.getInt();
                     audio.seleccionarCancion(info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
                     audio.reproducir();
                     System.out.println("");
-                    System.out.println("Desea mirar la letra si/no");
+                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Desea mirar la letra si/no").reset());
 
                     Scanner datos4 = new Scanner(System.in);
                     String respuesta4 = datos4.nextLine();
@@ -212,13 +247,13 @@ public class Programa {
                     }
                 }
                 if (opcion == 3) {
-                    imprimir("Ingrese el número de la canción, entre 1 y " + (info_canciones.length));
+                    imprimir2("Ingrese el número de la canción, entre 1 y " + (info_canciones.length));
                     numero_cancion = ConsoleInput.getInt();
                     inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
                     fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
                     letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);
 
-                    imprimir(letra_cancion.toString());
+                    imprimir3(letra_cancion.toString());
                     System.out.println("Desea volver al menu si/no");
 
                     Scanner datos1 = new Scanner(System.in);
@@ -233,27 +268,52 @@ public class Programa {
                 if (opcion == 4) {
 
 
-                    System.out.println("");
-                    System.out.println("Desea volver al menu si/no");
+                    int numero_cancion1 = (int) Math.floor(Math.random() * info_canciones.length);
+                    
 
-                    Scanner datos2 = new Scanner(System.in);
-                    String respuesta2 = datos2.nextLine();
-                    respuesta2 = respuesta2.toLowerCase();
-                    if(respuesta2.equals("si")){
-                        System.out.println();
-                        menu();}
-                }
+                        audio.seleccionarCancion(info_canciones[numero_cancion1][ConsoleData.RUTA_CANCION]);
+                        audio.reproducir();
+
+                        imprimir("Nombre: " + info_canciones[numero_cancion1][ConsoleData.NOMBRE_CANCION]);
+
+                        System.out.println("");
+                        System.out.println("Desea mirar la letra si/no");
+
+                        Scanner datos4 = new Scanner(System.in);
+                        String respuesta4 = datos4.nextLine();
+                        respuesta4 = respuesta4.toLowerCase();
+
+                        if(respuesta4.equals("si")) {
+                        inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
+                        fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
+                        letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);}
+
+
+                        System.out.println("");
+                        System.out.println("Desea volver al menu si/no");
+
+                        Scanner datos2 = new Scanner(System.in);
+                        String respuesta2 = datos2.nextLine();
+                        respuesta2 = respuesta2.toLowerCase();
+                        if (respuesta2.equals("si")) {
+                            System.out.println();
+                            menu();
+                        }
+                    }
+
                 if (opcion == 5) {
                     imprimir("Ingrese indice de la cancion, entre 1 y " + (info_canciones.length ));
                     numero_cancion = ConsoleInput.getInt();
                     inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
                     fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
                     System.out.println();
-                    imprimir("Inicio letra " + inicio_letra);
-                    imprimir("Fin letra " + fin_letra);
-                    imprimir("Nombre " + info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
-                    imprimir("Autor " + info_canciones[numero_cancion][ConsoleData.AUTOR_CANCION]);
-                    imprimir("Archivo " + info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
+                    imprimir("Inicio letra: " + inicio_letra);
+                    imprimir("Fin letra: " + fin_letra);
+                    imprimir("Nombre: " + info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
+                    imprimir("Autor: " + info_canciones[numero_cancion][ConsoleData.AUTOR_CANCION]);
+                    imprimir("Archivo: " + info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
+                    imprimir("Album: " + info_canciones[numero_cancion][ConsoleData.ALBUM_CANCION]);
+                    imprimir("Año: " + info_canciones[numero_cancion][ConsoleData.ANO_CANCION]);
                     imprimir("Primera estrofa: " + canciones[inicio_letra]);
                     imprimir("Última estrofa: " + canciones[fin_letra]);
                     Scanner datos3 = new Scanner(System.in);
