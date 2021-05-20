@@ -190,7 +190,7 @@ public class Programa {
                     String respuesta5;
                     do {
                         audio.detener();
-                        imprimir2("Ingrese el número de la canción, entre 0 y " + (info_canciones.length - 1));
+                        imprimir("Ingrese el número de la canción, entre 0 y " + (info_canciones.length - 1));
                         numero_cancion = ConsoleInput.getInt();
                         imprimir("Nombre: " + info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
                         audio.seleccionarCancion(info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
@@ -229,14 +229,23 @@ public class Programa {
                     }
                 }
                 if (opcion == 3) {
-                    imprimir2("Ingrese el número de la canción, entre 0 y " + (info_canciones.length-1));
-                    numero_cancion = ConsoleInput.getInt();
-                    inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
-                    fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
-                    letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);
+                    String respuesta9;
+                    do {
+                        imprimir("Ingrese el número de la canción, entre 0 y " + (info_canciones.length - 1));
+                        numero_cancion = ConsoleInput.getInt();
+                        inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
+                        fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
+                        letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);
 
-                    imprimir3(letra_cancion.toString());
-                    System.out.println("Desea volver al menu si/no");
+                        imprimir(letra_cancion.toString());
+                        System.out.println("");
+                        imprimir("Desea ver otras letras de otra canción si/no ");
+                        Scanner datos5 = new Scanner(System.in);
+                        respuesta9 = datos5.nextLine();
+                        respuesta9 = respuesta9.toLowerCase();
+                        
+                    }while(respuesta9.equals("si"));
+                        System.out.println("Desea volver al menu si/no");
                     Scanner datos1 = new Scanner(System.in);
                     String respuesta1 = datos1.nextLine();
                     respuesta1 = respuesta1.toLowerCase();
