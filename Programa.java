@@ -71,6 +71,18 @@ public class Programa {
         System.out.println("   °       3. Finalizar      °");
         System.out.println("   ___________________________");
     }
+    public static void reglas(){
+        System.out.println("   _________________________________");
+        System.out.println("   °             Reglas            °");
+        System.out.println("   °  Deberas de tomar decisiones, °");
+        System.out.println("   °   perdiendo vida o energia,   °");
+        System.out.println("   °   para abrirte paso por los   °");
+        System.out.println("   °   enemigos hasta llegar al    °");
+        System.out.println("   ° jefe final, ¿podrás lograrlo? °");
+        System.out.println("   °          1. Iniciar           °");
+        System.out.println("   °          2. Salir             °");
+        System.out.println("   _________________________________");
+    }
     
 
     //----------------------------------------------------------------------------------------Tildes-------------------------------------------------------------------------//
