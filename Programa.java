@@ -238,7 +238,7 @@ public class Programa {
    //------------------------------------------------------------------------------- Inicio Programa pincipal---------------------------------------------------------------------------------//
     public static void main(String[] args) {
         Audio audio = new Audio();
-        int opcion = 0, numero_cancion = 0, inicio_letra = 0, fin_letra = 0;
+        int opcion = 0, numero_cancion = 0, inicio_letra = 0, fin_letra = 0, seleccion = 0;
         String[] canciones;
         String[][] info_canciones;
         StringBuilder letra_cancion;
@@ -642,6 +642,27 @@ public class Programa {
                     if(respuesta3.equals("si")){
                         System.out.println();
                         menu();}
+                }
+                if(opcion == 1234){
+                    menu1();
+                    do{
+                        seleccion = ConsoleInput.getInt();
+                        if(seleccion == 1){
+                            start();
+                            menu();
+                        }
+                        if(seleccion == 2){
+                            reglas();
+                            int seleccion2 = 0;
+                            seleccion2 = ConsoleInput.getInt();
+                            if(seleccion2 == 1){
+                                start();
+                            }
+                            if(seleccion2 == 2){
+                                menu();
+                            } 
+                        }
+                    }while(seleccion != 3);
                 }
                 
  //-----------------------------------------------------------------------------------------------------------------------Salir-------------------------------------------------------------------//
