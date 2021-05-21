@@ -92,7 +92,56 @@ public class Programa {
         System.out.println("   °        3. Salir         °");
         System.out.println("   ___________________________");
     }
+    //---------------------------------------------------------------------------------Minijuego--------------------------------------------------------------------//
+    public static void start(){
+        int vida = 1000;
+        int energia = 500;
+        int boton = 0;
+        
+        do{
+            System.out.println("Te has encontrado con un slime apestoso de las montañas de necrabol, ¿qué deseas hacer?");
+            start_menu();
+            boton = ConsoleInput.getInt();
+            if(boton == 1){
+                int valor_energia;
+                valor_energia = energia - 100;
+                System.out.println("Has ganado la batalla pero te queda " + valor_energia + " de energia");
+                System.out.println("Has obtenido escencia de slime");
+                System.out.println("____________________________________________________________________________________________");
+                System.out.println("APARECIO EL DIOS DEMONIO DEL REINO DE URDAK, DECIDE RAPIDO");
 
+                start_menu_final();
+                int boton1 = ConsoleInput.getInt();
+
+                if(boton1 == 1){
+                    System.out.println("Usando la escencia de slime derrotaste al dios demonio, enhorabuna");
+                    boton = (1>0)?3:0;
+                }
+                if(boton1 == 2){
+                    boton = (1>0)?3:0;
+                }
+            }
+            if(boton == 2){
+                int valor_vida;
+                valor_vida = vida - 400;
+                System.out.println("Has huido del slime a cambio de tu vida, te queda " + valor_vida + " de vida");
+                System.out.println("____________________________________________________________________________________________");
+                System.out.println("APARECIO EL DIOS DEMONIO DEL REINO DE URDAK, DECIDE RAPIDO");
+
+                start_menu_final();
+                int boton2 = ConsoleInput.getInt();
+
+                if(boton2 == 1){
+                    System.out.println("El dios demonio te derrotó, mala suerte");
+                    boton = (1>0)?3:0;
+                }
+                if(boton2 == 2){
+                    boton = (1>0)?3:0;
+                }
+
+            }
+        }while(boton != 3);
+    }
     //----------------------------------------------------------------------------------------Tildes-------------------------------------------------------------------------//
     public static String convertirUnicode(String letra, String cadena) {
 
