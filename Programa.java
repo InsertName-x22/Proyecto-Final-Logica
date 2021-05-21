@@ -644,6 +644,7 @@ public class Programa {
                         menu();}
                 }
                 if(opcion == 1234){
+                    
                     menu1();
                     do{
                         seleccion = ConsoleInput.getInt();
