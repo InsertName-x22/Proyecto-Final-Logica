@@ -83,7 +83,15 @@ public class Programa {
         System.out.println("   °          2. Salir             °");
         System.out.println("   _________________________________");
     }
-    
+    public static void menu1(){
+        System.out.println("   ___________________________");
+        System.out.println("   °        Minijuego        °");
+        System.out.println("   °                         °");
+        System.out.println("   °        1. Iniciar       °");
+        System.out.println("   °        2. Relgas        °");
+        System.out.println("   °        3. Salir         °");
+        System.out.println("   ___________________________");
+    }
 
     //----------------------------------------------------------------------------------------Tildes-------------------------------------------------------------------------//
     public static String convertirUnicode(String letra, String cadena) {
