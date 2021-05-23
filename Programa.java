@@ -14,65 +14,68 @@ public class Programa {
         AnsiConsole.systemInstall();
         System.out.println("              |                                                                                                                                                                          |             ");
         System.out.println("              |                                                                                                                                                                          |             ");
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |                                  ").fg(CYAN).a(" ---.  .---.     .-''-.    .---.     .---.     ,---.    ,---.  ___    _    .-'''-. ").fg(YELLOW).a(".-./`)").fg(CYAN).a("     _______").fg(WHITE).a("                                   |").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |                                  ").fg(CYAN).a("|   |  |").fg(YELLOW).a("_ _").fg(CYAN).a("|   .'").fg(YELLOW).a("_ _").fg(CYAN).a("   \\   | ").fg(YELLOW).a(",_").fg(CYAN).a("|     | ,_|     |    \\  /    |.'   |  | |  / _     \\").fg(YELLOW).a("\\ .-.')   ").fg(CYAN).a("/   __  \\").fg(WHITE).a("                                  |").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |                                  ").fg(CYAN).a("|   |  ").fg(YELLOW).a("( ' )  ").fg(CYAN).a("/").fg(YELLOW).a(" ( ` )").fg(CYAN).a("   '").fg(YELLOW).a(",-./  )   ,-./  )").fg(CYAN).a("     |  ,  \\/  ,  ||   .'  | | ").fg(YELLOW).a("(`' )").fg(CYAN).a("/`--'").fg(YELLOW).a("/ `-' \\").fg(CYAN).a("  | ").fg(YELLOW).a(",_").fg(CYAN).a("/  \\__)").fg(WHITE).a("                                 |").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |                                  ").fg(CYAN).a("|   '-").fg(YELLOW).a("(_{;}_)").fg(CYAN).a(".").fg(YELLOW).a(" (_ o _)  ").fg(CYAN).a("|").fg(YELLOW).a("\\  '_ '`) \\  '_ '`)").fg(CYAN).a("   |  |\\").fg(YELLOW).a("_").fg(CYAN).a("   /|  |.'  '_  | |").fg(YELLOW).a("(_ o _)").fg(CYAN).a(".").fg(YELLOW).a("    `-'`'`,-./  )").fg(WHITE).a("                                       |").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |                                  ").fg(CYAN).a("|      ").fg(YELLOW).a("(_,_)").fg(CYAN).a(" |  ").fg(YELLOW).a("(_,_)").fg(CYAN).a("___| ").fg(YELLOW).a("> (_)  )  > (_)  )   ").fg(CYAN).a("|  ").fg(YELLOW).a("_( )_").fg(CYAN).a("/ |  |'   ").fg(YELLOW).a("( \\.-.").fg(CYAN).a("| ").fg(YELLOW).a("(_,_)").fg(CYAN).a(". '.  .---. ").fg(YELLOW).a("\\  '_ '`)").fg(WHITE).a("                                     |").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |                                  ").fg(CYAN).a("| ").fg(YELLOW).a("_ _").fg(CYAN).a("--.   | '  \\   .---.").fg(YELLOW).a("(  .  .-' (  .  .-'   ").fg(CYAN).a("| ").fg(YELLOW).a("(_ o _)").fg(CYAN).a(" |  |' ").fg(YELLOW).a("(`. _` /").fg(CYAN).a("|.---.  \\  : |   |  ").fg(YELLOW).a("> (_)  ) ").fg(CYAN).a(" __").fg(WHITE).a("                                 |").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |                                  ").fg(CYAN).a("|").fg(YELLOW).a("( ' )").fg(CYAN).a(" |   |  \\  `-'    / ").fg(YELLOW).a("`-'`-'").fg(CYAN).a("|___").fg(YELLOW).a("`-'`-'").fg(CYAN).a("|___ |  ").fg(YELLOW).a("(_,_)").fg(CYAN).a("  |  || ").fg(YELLOW).a("(_ (_) _)").fg(CYAN).a("\\    `-'  | |   | ").fg(YELLOW).a("(  .  .-'").fg(CYAN).a("_/  )").fg(WHITE).a("                                |").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |                                  ").fg(YELLOW).a("(_{;}_)").fg(CYAN).a("|   |   \\       /   |        \\|        \\|  |      |  | \\ ").fg(YELLOW).a("/  . \\ ").fg(CYAN).a("/ \\       /  |   |  ").fg(YELLOW).a("`-'`-'").fg(CYAN).a("     /").fg(WHITE).a("                                 |").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |                                  ").fg(CYAN).a("'").fg(YELLOW).a("(_,_)").fg(CYAN).a(" '---'    `'-..-'    `--------``--------`'--'      '--'  `").fg(YELLOW).a("`-'`-'").fg(CYAN).a("'   `-...-'   '---'    `._____.'").fg(WHITE).a("                                  |").reset());
+        System.out.println(ansi().fg(WHITE).a("              |                                  ").fg(CYAN).a(" ---.  .---.     .-''-.    .---.     .---.     ,---.    ,---.  ___    _    .-'''-. ").fg(YELLOW).a(".-./`)").fg(CYAN).a("     _______").fg(WHITE).a("                                   |").reset());
+        System.out.println(ansi().fg(WHITE).a("              |                                  ").fg(CYAN).a("|   |  |").fg(YELLOW).a("_ _").fg(CYAN).a("|   .'").fg(YELLOW).a("_ _").fg(CYAN).a("   \\   | ").fg(YELLOW).a(",_").fg(CYAN).a("|     | ,_|     |    \\  /    |.'   |  | |  / _     \\").fg(YELLOW).a("\\ .-.')   ").fg(CYAN).a("/   __  \\").fg(WHITE).a("                                  |").reset());
+        System.out.println(ansi().fg(WHITE).a("              |                                  ").fg(CYAN).a("|   |  ").fg(YELLOW).a("( ' )  ").fg(CYAN).a("/").fg(YELLOW).a(" ( ` )").fg(CYAN).a("   '").fg(YELLOW).a(",-./  )   ,-./  )").fg(CYAN).a("     |  ,  \\/  ,  ||   .'  | | ").fg(YELLOW).a("(`' )").fg(CYAN).a("/`--'").fg(YELLOW).a("/ `-' \\").fg(CYAN).a("  | ").fg(YELLOW).a(",_").fg(CYAN).a("/  \\__)").fg(WHITE).a("                                 |").reset());
+        System.out.println(ansi().fg(WHITE).a("              |                                  ").fg(CYAN).a("|   '-").fg(YELLOW).a("(_{;}_)").fg(CYAN).a(".").fg(YELLOW).a(" (_ o _)  ").fg(CYAN).a("|").fg(YELLOW).a("\\  '_ '`) \\  '_ '`)").fg(CYAN).a("   |  |\\").fg(YELLOW).a("_").fg(CYAN).a("   /|  |.'  '_  | |").fg(YELLOW).a("(_ o _)").fg(CYAN).a(".").fg(YELLOW).a("    `-'`'`,-./  )").fg(WHITE).a("                                       |").reset());
+        System.out.println(ansi().fg(WHITE).a("              |                                  ").fg(CYAN).a("|      ").fg(YELLOW).a("(_,_)").fg(CYAN).a(" |  ").fg(YELLOW).a("(_,_)").fg(CYAN).a("___| ").fg(YELLOW).a("> (_)  )  > (_)  )   ").fg(CYAN).a("|  ").fg(YELLOW).a("_( )_").fg(CYAN).a("/ |  |'   ").fg(YELLOW).a("( \\.-.").fg(CYAN).a("| ").fg(YELLOW).a("(_,_)").fg(CYAN).a(". '.  .---. ").fg(YELLOW).a("\\  '_ '`)").fg(WHITE).a("                                     |").reset());
+        System.out.println(ansi().fg(WHITE).a("              |                                  ").fg(CYAN).a("| ").fg(YELLOW).a("_ _").fg(CYAN).a("--.   | '  \\   .---.").fg(YELLOW).a("(  .  .-' (  .  .-'   ").fg(CYAN).a("| ").fg(YELLOW).a("(_ o _)").fg(CYAN).a(" |  |' ").fg(YELLOW).a("(`. _` /").fg(CYAN).a("|.---.  \\  : |   |  ").fg(YELLOW).a("> (_)  ) ").fg(CYAN).a(" __").fg(WHITE).a("                                 |").reset());
+        System.out.println(ansi().fg(WHITE).a("              |                                  ").fg(CYAN).a("|").fg(YELLOW).a("( ' )").fg(CYAN).a(" |   |  \\  `-'    / ").fg(YELLOW).a("`-'`-'").fg(CYAN).a("|___").fg(YELLOW).a("`-'`-'").fg(CYAN).a("|___ |  ").fg(YELLOW).a("(_,_)").fg(CYAN).a("  |  || ").fg(YELLOW).a("(_ (_) _)").fg(CYAN).a("\\    `-'  | |   | ").fg(YELLOW).a("(  .  .-'").fg(CYAN).a("_/  )").fg(WHITE).a("                                |").reset());
+        System.out.println(ansi().fg(WHITE).a("              |                                  ").fg(YELLOW).a("(_{;}_)").fg(CYAN).a("|   |   \\       /   |        \\|        \\|  |      |  | \\ ").fg(YELLOW).a("/  . \\ ").fg(CYAN).a("/ \\       /  |   |  ").fg(YELLOW).a("`-'`-'").fg(CYAN).a("     /").fg(WHITE).a("                                 |").reset());
+        System.out.println(ansi().fg(WHITE).a("              |                                  ").fg(CYAN).a("'").fg(YELLOW).a("(_,_)").fg(CYAN).a(" '---'    `'-..-'    `--------``--------`'--'      '--'  `").fg(YELLOW).a("`-'`-'").fg(CYAN).a("'   `-...-'   '---'    `._____.'").fg(WHITE).a("                                  |").reset());
 
         System.out.println("              |                                                                                                                                                                          |             ");
         System.out.println("              |                                                                                                                                                                          |");
         System.out.println("              |                                                                                                                                                                          |");
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    ").fg(WHITE).a("@@@@@@@@@@@.").fg(CYAN).a("/&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&,                      ").fg(WHITE).a("@@@@@@@@@@@.").fg(CYAN).a("/&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&,    ").fg(WHITE).a("|             ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@@@@@@@ ").fg(CYAN).a(".&&&&&&&&&&&&&&&&,&&&&&&&&&&&&&&&&&&/&&&&&&&&&&&&&&&&&&&&&&@").fg(WHITE).a("                      @@@@@@@@@ ").fg(CYAN).a(".&&&&&&&&&&&&&&&&,&&&&&&&&&&&&&&&&&&/&&&&&&&&&&&&&&&&&&&&&&@    ").fg(WHITE).a("|      ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@@@@@ ").fg(CYAN).a(".&&&&&&&&&&&&&&&&&(,&&&&&&&&&&&&&&&&&&,&&&&&&&&&&&&&&&&&&&&&&&").fg(WHITE).a("                      @@@@@@@").fg(CYAN).a(". &&&&&&&&&&&&&&&&&(,&&&&&&&&&&&&&&&&&&,&&&&&&&&&&&&&&&&&&&&&&&    ").fg(WHITE).a("|         ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@@@@").fg(CYAN).a(".(&&&&&&&&&&&&&&&&&& #&&&&&&&&&&&&&&&%,..&&&&&&&&&&&&&&&&&&&&&&&").fg(WHITE).a("                      @@@@@@").fg(CYAN).a(".(&&&&&&&&&&&&&&&&&& #&&&&&&&&&&&&&&&%,..&&&&&&&&&&&&&&&&&&&&&&&    ").fg(WHITE).a("|      ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@@@").fg(CYAN).a(".&&&&&&&&&&&&&&&&&&%..%&&&&&&&&&&&&&&&&../,&&&&&&&&&&&&&&&&&&&&&&").fg(WHITE).a("                      @@@@@").fg(CYAN).a(".&&&&&&&&&&&&&&&&&&%..%&&&&&&&&&&&&&&&&../,&&&&&&&&&&&&&&&&&&&&&&    ").fg(WHITE).a("|      ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@@").fg(CYAN).a(" &&&&&&&&&&&%.&&&&&..").fg(WHITE).a("@").fg(CYAN).a(".%&&&&&&&&&&&&&&&,.").fg(WHITE).a("@@").fg(CYAN).a(",(&&&&&&%&&&&&(&&&&&&&&").fg(WHITE).a("                      @@@@").fg(CYAN).a(" &&&&&&&&&&&%.&&&&&.").fg(WHITE).a(".@").fg(CYAN).a(".%&&&&&&&&&&&&&&&,.").fg(WHITE).a("@@").fg(CYAN).a(",(&&&&&&%&&&&&(&&&&&&&&    ").fg(WHITE).a("|              ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@").fg(CYAN).a("./&&&&&&&&&&%.&&&&%..").fg(WHITE).a("@@").fg(CYAN).a(".*&&&&&&,&&&&&&&*.").fg(WHITE).a("@@@@").fg(CYAN).a(".%&&&&&%*&&&&&*&&&&&&&").fg(WHITE).a("                      @@@").fg(CYAN).a("./&&&&&&&&&&%.&&&&%.").fg(WHITE).a(".@@").fg(CYAN).a(".*&&&&&&,&&&&&&&*.").fg(WHITE).a("@@@@").fg(CYAN).a(".%&&&&&%*&&&&&*&&&&&&&    ").fg(WHITE).a("|                          ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@").fg(CYAN).a("..&&&&&&&&&&..&&&%..").fg(WHITE).a("@@@@").fg(CYAN).a(",.&&&&&.*&&&&&&..").fg(WHITE).a("@@@@@@").fg(CYAN).a(".(&&&&&,*%&&&,&&&&&&&").fg(WHITE).a("                      @@").fg(CYAN).a("..&&&&&&&&&&..&&&%.").fg(WHITE).a(".@@@@").fg(CYAN).a(",.&&&&&.*&&&&&&..").fg(WHITE).a("@@@@@@").fg(CYAN).a(".(&&&&&,*%&&&,&&&&&&&    ").fg(WHITE).a("|                             ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@").fg(CYAN).a(".&&&&&&&&&#.(&&/").fg(WHITE).a("  ..   ..").fg(CYAN).a("  &&&&.,&&&&&.").fg(WHITE).a(",@&,,.... ").fg(CYAN).a(".&&&&&.,&&&**&&&&&&").fg(WHITE).a("                      @@").fg(CYAN).a(".&&&&&&&&&#.(&&/").fg(WHITE).a(". ..   ..  ").fg(CYAN).a("&&&&.,&&&&&.,").fg(WHITE).a("@&,,.... ").fg(CYAN).a(".&&&&&.,&&&**&&&&&&    ").fg(WHITE).a("|                                         ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @").fg(CYAN).a(",.&&&&&&%%./&/").fg(WHITE).a(" ,@@@@@@@@@@@").fg(CYAN).a(",*&&&..&&%,.").fg(WHITE).a("@@@@@@@@@@@@").fg(CYAN).a(",/&*/&*.&&%.&&&&&&").fg(WHITE).a("      1.Lista         @").fg(CYAN).a(",.&&&&&&%%./&/").fg(WHITE).a(" ,@@@@@@@@@@@").fg(CYAN).a(",*&&&..&&%,.").fg(WHITE).a("@@@@@@@@@@@@").fg(CYAN).a(",/&*/&*.&&%.&&&&&&    ").fg(WHITE).a("|                                    ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @").fg(CYAN).a(".%&&&&,#..").fg(WHITE).a(".@@@@@@@@@@@@@@@@@").fg(CYAN).a("(.%&&..,%").fg(WHITE).a("@@@@@@@@@@@@@@@@").fg(CYAN).a(",,&&&&,%%.&&&&&&").fg(WHITE).a("      2.Reproducir    @").fg(CYAN).a(".%&&&&,#..").fg(WHITE).a(".@@@@@@@@@@@@@@@@@").fg(CYAN).a("(.%&&..,").fg(WHITE).a("%@@@@@@@@@@@@@@@@,").fg(CYAN).a(",&&&&,%%.&&&&&&    ").fg(WHITE).a("|                              ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @").fg(CYAN).a(".&&&&.(&% ").fg(WHITE).a(" @@@@@@@@@@@@@@#@@@@@").fg(CYAN).a(",/&/,").fg(WHITE).a("@@@@@@%&@@@@@@@@@@@@").fg(CYAN).a("**&&&,.&&&&&&").fg(WHITE).a("      3.Letras        @").fg(CYAN).a(".&&&&.(&%").fg(WHITE).a("  @@@@@@@@@@@@@@#@@@@@").fg(CYAN).a(",/&/,").fg(WHITE).a("@@@@@@%&@@@@@@@@@@@@").fg(CYAN).a("**&&&,.&&&&&&    ").fg(WHITE).a("|                           ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @").fg(CYAN).a(".&&&.,&&&%").fg(WHITE).a(" @@@@..@@@@@@@@.*@@@@@@@@@@@@@@@../@@@@@@@@..@@@@@@").fg(CYAN).a("*.&&&&&&").fg(WHITE).a("      4.Random        @").fg(CYAN).a(".&&&.,&&&%").fg(WHITE).a(" @@@@..@@@@@@@@.*@@@@@@@@@@@@@@@../@@@@@@@@..@@@@@@*").fg(CYAN).a(".&&&&&&    ").fg(WHITE).a("|                           ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&").fg(WHITE).a("      5.Indice        @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&    ").fg(WHITE).a("|                               ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @").fg(CYAN).a("(*,,.&&&&%").fg(WHITE).a(".%&&&#         @@@@@@@@@@@@@@@@@@           @@@@@@@").fg(CYAN).a(".%&&&&&&").fg(WHITE).a("      6.Salir         @").fg(CYAN).a("(*,,.&&&&%").fg(WHITE).a(".%&&&#         @@@@@@@@@@@@@@@@@@           @@@@@@@").fg(CYAN).a(".%&&&&&&    ").fg(WHITE).a("|                   ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@").fg(CYAN).a(",.%.&%%%#").fg(RED).a("**%%%%%%%&&&&").fg(WHITE).a("@@&,@@@@@@@@@@@@@..@@@@").fg(RED).a("&, .%&&&&&&&@@").fg(CYAN).a(",.&&&&S&&&").fg(WHITE).a("                     @@").fg(CYAN).a(",.%.&%%%#").fg(RED).a("**%%%%%%%&&&&").fg(WHITE).a("@@&,@@@@@@@@@@@@@..@@@@").fg(RED).a("&, .%&&&&&&&@@").fg(CYAN).a(",.&&&&&&&    ").fg(WHITE).a("|                           ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@&").fg(CYAN).a("//.&%%%%").fg(RED).a(" ,%%%%%%%%%&&&").fg(WHITE).a("@@  @@@.. .@@@@  (@@").fg(RED).a("&&&&%%%%%%%%&&&@").fg(CYAN).a(".%&&&&&&&").fg(WHITE).a("                      @@&").fg(CYAN).a("//.&%%%%").fg(RED).a(" ,%%%%%%%%%&&&").fg(WHITE).a("@@  @@@.. .@@@@  (@@").fg(RED).a("&&&&%%%%%%%%&&&@").fg(CYAN).a(".%&&&&&&&    ").fg(WHITE).a("|                              ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@@").fg(CYAN).a(",.%%%%#").fg(RED).a(" %%%%%%%%%%&&").fg(WHITE).a("@@@@..  .@@..  . @@@").fg(RED).a("&&&&%%%%%%%%%%%&").fg(CYAN).a(".,%%&&&&&&").fg(WHITE).a("                      @@@@").fg(CYAN).a(",.%%%%#").fg(RED).a(" %%%%%%%%%%&&").fg(WHITE).a("@@@@..  .@@..  . @@@").fg(RED).a("&&&&%%%%%%%%%%%&").fg(CYAN).a(".,%%&&&&&&    ").fg(WHITE).a("|                              ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@@").fg(CYAN).a("..&%%%%").fg(RED).a(" %&&&&&&&&&").fg(WHITE).a("@@@@@@@@@@@@@@@@@@@@@@@").fg(RED).a("&&&&&&%%%%%&&&").fg(CYAN).a("..%%%&&&&&&").fg(WHITE).a("                      @@@@").fg(CYAN).a("..&%%%%").fg(RED).a(" %&&&&&&&&&").fg(WHITE).a("@@@@@@@@@@@@@@@@@@@@@@@").fg(RED).a("&&&&&&%%%%%&&&").fg(CYAN).a("..%%%&&&&&&    ").fg(WHITE).a("|                                  ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@%").fg(CYAN).a(",.&&&&(").fg(WHITE).a(" *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&&&&&&&&&").fg(CYAN).a(",.&%%&&&&&..").fg(WHITE).a("                      @@@%").fg(CYAN).a(",.&&&&(").fg(WHITE).a(" *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&&&&&&&&&").fg(CYAN).a(",.&%%&&&&&").fg(WHITE).a("..    ").fg(WHITE).a("|                                  ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@").fg(CYAN).a("(..,&&&.*").fg(WHITE).a(".*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",,&&&&&&&(").fg(WHITE).a("..&                      @@@").fg(CYAN).a("(..,&&&.*").fg(WHITE).a(".*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",,&&&&&&&").fg(WHITE).a("(..&    ").fg(WHITE).a("|                          ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@%").fg(CYAN).a(".&.%&&../ ").fg(WHITE).a(".&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",%&&&&&&&.").fg(WHITE).a(",&&&                      @@@%").fg(CYAN).a(".&.%&&../").fg(WHITE).a(" .&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",%&&&&&&&.").fg(WHITE).a(",&&&    ").fg(WHITE).a("|                             ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@&").fg(CYAN).a(",%&.#& ////*").fg(WHITE).a(" .&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(").fg(CYAN).a("  %&&&&&/ ").fg(WHITE).a("(&&&&&                      @@@&").fg(CYAN).a(",%&.#& ////*").fg(WHITE).a(" .&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a("(  %&&&&&/ ").fg(WHITE).a("(&&&&&    ").fg(WHITE).a("|                                    ").reset());
-        System.out.println(ansi().eraseScreen().fg(WHITE).a("              |    @@@@").fg(CYAN).a(",&&&&,.,////////,  ").fg(WHITE).a(".*@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",.. .//,,&&&&&. /").fg(WHITE).a("//&&&&&&                      @@@@").fg(CYAN).a(",&&&&,.,////////,").fg(WHITE).a("  .*@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",.. .//,,&&&&&. /").fg(WHITE).a("//&&&&&&    ").fg(WHITE).a("|                     ").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    ").fg(WHITE).a("@@@@@@@@@@@.").fg(CYAN).a("/&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&,                      ").fg(WHITE).a("@@@@@@@@@@@.").fg(CYAN).a("/&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&,    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@@@@@@@ ").fg(CYAN).a(".&&&&&&&&&&&&&&&&,&&&&&&&&&&&&&&&&&&/&&&&&&&&&&&&&&&&&&&&&&@").fg(WHITE).a("                      @@@@@@@@@ ").fg(CYAN).a(".&&&&&&&&&&&&&&&&,&&&&&&&&&&&&&&&&&&/&&&&&&&&&&&&&&&&&&&&&&@    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@@@@@ ").fg(CYAN).a(".&&&&&&&&&&&&&&&&&(,&&&&&&&&&&&&&&&&&&,&&&&&&&&&&&&&&&&&&&&&&&").fg(WHITE).a("                      @@@@@@@").fg(CYAN).a(". &&&&&&&&&&&&&&&&&(,&&&&&&&&&&&&&&&&&&,&&&&&&&&&&&&&&&&&&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@@@@").fg(CYAN).a(".(&&&&&&&&&&&&&&&&&& #&&&&&&&&&&&&&&&%,..&&&&&&&&&&&&&&&&&&&&&&&").fg(WHITE).a("                      @@@@@@").fg(CYAN).a(".(&&&&&&&&&&&&&&&&&& #&&&&&&&&&&&&&&&%,..&&&&&&&&&&&&&&&&&&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@@@").fg(CYAN).a(".&&&&&&&&&&&&&&&&&&%..%&&&&&&&&&&&&&&&&../,&&&&&&&&&&&&&&&&&&&&&&").fg(WHITE).a("                      @@@@@").fg(CYAN).a(".&&&&&&&&&&&&&&&&&&%..%&&&&&&&&&&&&&&&&../,&&&&&&&&&&&&&&&&&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@@").fg(CYAN).a(" &&&&&&&&&&&%.&&&&&..").fg(WHITE).a("@").fg(CYAN).a(".%&&&&&&&&&&&&&&&,.").fg(WHITE).a("@@").fg(CYAN).a(",(&&&&&&%&&&&&(&&&&&&&&").fg(WHITE).a("                      @@@@").fg(CYAN).a(" &&&&&&&&&&&%.&&&&&.").fg(WHITE).a(".@").fg(CYAN).a(".%&&&&&&&&&&&&&&&,.").fg(WHITE).a("@@").fg(CYAN).a(",(&&&&&&%&&&&&(&&&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@").fg(CYAN).a("./&&&&&&&&&&%.&&&&%..").fg(WHITE).a("@@").fg(CYAN).a(".*&&&&&&,&&&&&&&*.").fg(WHITE).a("@@@@").fg(CYAN).a(".%&&&&&%*&&&&&*&&&&&&&").fg(WHITE).a("                      @@@").fg(CYAN).a("./&&&&&&&&&&%.&&&&%.").fg(WHITE).a(".@@").fg(CYAN).a(".*&&&&&&,&&&&&&&*.").fg(WHITE).a("@@@@").fg(CYAN).a(".%&&&&&%*&&&&&*&&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@").fg(CYAN).a("..&&&&&&&&&&..&&&%..").fg(WHITE).a("@@@@").fg(CYAN).a(",.&&&&&.*&&&&&&..").fg(WHITE).a("@@@@@@").fg(CYAN).a(".(&&&&&,*%&&&,&&&&&&&").fg(WHITE).a("                      @@").fg(CYAN).a("..&&&&&&&&&&..&&&%.").fg(WHITE).a(".@@@@").fg(CYAN).a(",.&&&&&.*&&&&&&..").fg(WHITE).a("@@@@@@").fg(CYAN).a(".(&&&&&,*%&&&,&&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@").fg(CYAN).a(".&&&&&&&&&#.(&&/").fg(WHITE).a("  ..   ..").fg(CYAN).a("  &&&&.,&&&&&.").fg(WHITE).a(",@&,,.... ").fg(CYAN).a(".&&&&&.,&&&**&&&&&&").fg(WHITE).a("                      @@").fg(CYAN).a(".&&&&&&&&&#.(&&/").fg(WHITE).a(". ..   ..  ").fg(CYAN).a("&&&&.,&&&&&.,").fg(WHITE).a("@&,,.... ").fg(CYAN).a(".&&&&&.,&&&**&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @").fg(CYAN).a(",.&&&&&&%%./&/").fg(WHITE).a(" ,@@@@@@@@@@@").fg(CYAN).a(",*&&&..&&%,.").fg(WHITE).a("@@@@@@@@@@@@").fg(CYAN).a(",/&*/&*.&&%.&&&&&&").fg(WHITE).a("      1.Lista         @").fg(CYAN).a(",.&&&&&&%%./&/").fg(WHITE).a(" ,@@@@@@@@@@@").fg(CYAN).a(",*&&&..&&%,.").fg(WHITE).a("@@@@@@@@@@@@").fg(CYAN).a(",/&*/&*.&&%.&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @").fg(CYAN).a(".%&&&&,#..").fg(WHITE).a(".@@@@@@@@@@@@@@@@@").fg(CYAN).a("(.%&&..,%").fg(WHITE).a("@@@@@@@@@@@@@@@@").fg(CYAN).a(",,&&&&,%%.&&&&&&").fg(WHITE).a("      2.Reproducir    @").fg(CYAN).a(".%&&&&,#..").fg(WHITE).a(".@@@@@@@@@@@@@@@@@").fg(CYAN).a("(.%&&..,").fg(WHITE).a("%@@@@@@@@@@@@@@@@,").fg(CYAN).a(",&&&&,%%.&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @").fg(CYAN).a(".&&&&.(&% ").fg(WHITE).a(" @@@@@@@@@@@@@@#@@@@@").fg(CYAN).a(",/&/,").fg(WHITE).a("@@@@@@%&@@@@@@@@@@@@").fg(CYAN).a("**&&&,.&&&&&&").fg(WHITE).a("      3.Letras        @").fg(CYAN).a(".&&&&.(&%").fg(WHITE).a("  @@@@@@@@@@@@@@#@@@@@").fg(CYAN).a(",/&/,").fg(WHITE).a("@@@@@@%&@@@@@@@@@@@@").fg(CYAN).a("**&&&,.&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @").fg(CYAN).a(".&&&.,&&&%").fg(WHITE).a(" @@@@..@@@@@@@@.*@@@@@@@@@@@@@@@../@@@@@@@@..@@@@@@").fg(CYAN).a("*.&&&&&&").fg(WHITE).a("      4.Random        @").fg(CYAN).a(".&&&.,&&&%").fg(WHITE).a(" @@@@..@@@@@@@@.*@@@@@@@@@@@@@@@../@@@@@@@@..@@@@@@*").fg(CYAN).a(".&&&&&&    ").fg(WHITE).a("|                           ").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&").fg(WHITE).a("      5.Indice        @").fg(CYAN).a(".%&..,&&&&").fg(WHITE).a(".@@@@   @@@@@   &@@@@@@@@@@@@@@@   %@@@@@    @@@@@@").fg(CYAN).a("..&&&&&&    ").fg(WHITE).a("|                               ").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @").fg(CYAN).a("(*,,.&&&&%").fg(WHITE).a(".%&&&#         @@@@@@@@@@@@@@@@@@           @@@@@@@").fg(CYAN).a(".%&&&&&&").fg(WHITE).a("      6.Salir         @").fg(CYAN).a("(*,,.&&&&%").fg(WHITE).a(".%&&&#         @@@@@@@@@@@@@@@@@@           @@@@@@@").fg(CYAN).a(".%&&&&&&    ").fg(WHITE).a("|                   ").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@").fg(CYAN).a(",.%.&%%%#").fg(RED).a("**%%%%%%%&&&&").fg(WHITE).a("@@&,@@@@@@@@@@@@@..@@@@").fg(RED).a("&, .%&&&&&&&@@").fg(CYAN).a(",.&&&&S&&&").fg(WHITE).a("                     @@").fg(CYAN).a(",.%.&%%%#").fg(RED).a("**%%%%%%%&&&&").fg(WHITE).a("@@&,@@@@@@@@@@@@@..@@@@").fg(RED).a("&, .%&&&&&&&@@").fg(CYAN).a(",.&&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@&").fg(CYAN).a("//.&%%%%").fg(RED).a(" ,%%%%%%%%%&&&").fg(WHITE).a("@@  @@@.. .@@@@  (@@").fg(RED).a("&&&&%%%%%%%%&&&@").fg(CYAN).a(".%&&&&&&&").fg(WHITE).a("                      @@&").fg(CYAN).a("//.&%%%%").fg(RED).a(" ,%%%%%%%%%&&&").fg(WHITE).a("@@  @@@.. .@@@@  (@@").fg(RED).a("&&&&%%%%%%%%&&&@").fg(CYAN).a(".%&&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@@").fg(CYAN).a(",.%%%%#").fg(RED).a(" %%%%%%%%%%&&").fg(WHITE).a("@@@@..  .@@..  . @@@").fg(RED).a("&&&&%%%%%%%%%%%&").fg(CYAN).a(".,%%&&&&&&").fg(WHITE).a("                      @@@@").fg(CYAN).a(",.%%%%#").fg(RED).a(" %%%%%%%%%%&&").fg(WHITE).a("@@@@..  .@@..  . @@@").fg(RED).a("&&&&%%%%%%%%%%%&").fg(CYAN).a(".,%%&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@@").fg(CYAN).a("..&%%%%").fg(RED).a(" %&&&&&&&&&").fg(WHITE).a("@@@@@@@@@@@@@@@@@@@@@@@").fg(RED).a("&&&&&&%%%%%&&&").fg(CYAN).a("..%%%&&&&&&").fg(WHITE).a("                      @@@@").fg(CYAN).a("..&%%%%").fg(RED).a(" %&&&&&&&&&").fg(WHITE).a("@@@@@@@@@@@@@@@@@@@@@@@").fg(RED).a("&&&&&&%%%%%&&&").fg(CYAN).a("..%%%&&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@%").fg(CYAN).a(",.&&&&(").fg(WHITE).a(" *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&&&&&&&&&").fg(CYAN).a(",.&%%&&&&&..").fg(WHITE).a("                      @@@%").fg(CYAN).a(",.&&&&(").fg(WHITE).a(" *@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&&&&&&&&&&&").fg(CYAN).a(",.&%%&&&&&").fg(WHITE).a("..    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@").fg(CYAN).a("(..,&&&.*").fg(WHITE).a(".*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",,&&&&&&&(").fg(WHITE).a("..&                      @@@").fg(CYAN).a("(..,&&&.*").fg(WHITE).a(".*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",,&&&&&&&").fg(WHITE).a("(..&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@%").fg(CYAN).a(".&.%&&../ ").fg(WHITE).a(".&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",%&&&&&&&.").fg(WHITE).a(",&&&                      @@@%").fg(CYAN).a(".&.%&&../").fg(WHITE).a(" .&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",%&&&&&&&.").fg(WHITE).a(",&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@&").fg(CYAN).a(",%&.#& ////*").fg(WHITE).a(" .&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@(").fg(CYAN).a("  %&&&&&/ ").fg(WHITE).a("(&&&&&                      @@@&").fg(CYAN).a(",%&.#& ////*").fg(WHITE).a(" .&@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a("(  %&&&&&/ ").fg(WHITE).a("(&&&&&    ").fg(WHITE).a("|").reset());
+        System.out.println(ansi().fg(WHITE).a("              |    @@@@").fg(CYAN).a(",&&&&,.,////////,  ").fg(WHITE).a(".*@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",.. .//,,&&&&&. /").fg(WHITE).a("//&&&&&&                      @@@@").fg(CYAN).a(",&&&&,.,////////,").fg(WHITE).a("  .*@@@@@@@@@@@@@@@@@@@@").fg(CYAN).a(",.. .//,,&&&&&. /").fg(WHITE).a("//&&&&&&    ").fg(WHITE).a("|").reset());
     }
     //------------------------------------------------------------------------------Interfaz menú minijuego------------------------------------------------------------------//
-    public static void start_menu_final(){
-        System.out.println("   ___________________________");
+    public static void start_menu_final()
+    {
+        System.out.println(ansi().fg(RED).a("   ___________________________"));
         System.out.println("   °        Minijuego        °");
         System.out.println("   °                         °");
         System.out.println("   °       1. Luchar         °");
-        System.out.println("   °       2. Finalizar      °");
         System.out.println("   °                         °");
-        System.out.println("   ___________________________");
+        System.out.println("   °                         °");
+        System.out.println(ansi().a("   ___________________________").reset());
     }
-    public static void start_menu(){
-        System.out.println("   ___________________________");
+    public static void start_menu()
+    {
+        System.out.println(ansi().fg(RED).a("   ___________________________"));
         System.out.println("   °        Minijuego        °");
         System.out.println("   °                         °");
         System.out.println("   °       1. Luchar         °");
         System.out.println("   °       2. Huir           °");
-        System.out.println("   °       3. Finalizar      °");
-        System.out.println("   ___________________________");
+        System.out.println("   °                         °");
+        System.out.println(ansi().a("   ___________________________").reset());
     }
-    public static void reglas(){
-        System.out.println("   _________________________________");
+    public static void reglas()
+    {
+        System.out.println(ansi().fg(RED).a("   _________________________________"));
         System.out.println("   °             Reglas            °");
         System.out.println("   °  Deberas de tomar decisiones, °");
         System.out.println("   °   perdiendo vida o energia,   °");
@@ -81,69 +84,84 @@ public class Programa {
         System.out.println("   ° jefe final, ¿podrás lograrlo? °");
         System.out.println("   °          1. Iniciar           °");
         System.out.println("   °          2. Salir             °");
-        System.out.println("   _________________________________");
+        System.out.println(ansi().a("   _________________________________").reset());
     }
-    public static void menu1(){
-        System.out.println("   ___________________________");
+    public static void menu1()
+    {
+        System.out.println(ansi().fg(RED).a("   ___________________________"));
         System.out.println("   °        Minijuego        °");
         System.out.println("   °                         °");
         System.out.println("   °        1. Iniciar       °");
         System.out.println("   °        2. Relgas        °");
         System.out.println("   °        3. Salir         °");
-        System.out.println("   ___________________________");
+        System.out.println(ansi().a("   ___________________________").reset());
     }
     //---------------------------------------------------------------------------------Minijuego--------------------------------------------------------------------//
-    public static void start(){
+    public static void start()
+    {
         int vida = 1000;
         int energia = 500;
         int boton = 0;
+
         
-        do{
-            System.out.println("Te has encontrado con un slime apestoso de las montañas de necrabol, ¿qué deseas hacer?");
+
+            System.out.println("Te has encontrado con un "+ ansi().fg(GREEN).a("slime").reset()+" apestoso de las montañas de necrabol, ¿qué deseas hacer?");
             start_menu();
             boton = ConsoleInput.getInt();
-            if(boton == 1){
+            if(boton == 1)
+            {
                 int valor_energia;
                 valor_energia = energia - 100;
                 System.out.println("Has ganado la batalla pero te queda " + valor_energia + " de energia");
-                System.out.println("Has obtenido escencia de slime");
+                System.out.println("Has obtenido escencia de "+ ansi().fg(GREEN).a("slime").reset());
                 System.out.println("____________________________________________________________________________________________");
-                System.out.println("APARECIO EL DIOS DEMONIO DEL REINO DE URDAK, DECIDE RAPIDO");
+                System.out.println(ansi().fg(WHITE).a("APARECIO EL ").fg(YELLOW).a("DIOS DEMONIO").fg(WHITE).a(" DEL REINO DE URDAK, DECIDE RAPIDO").reset());
 
                 start_menu_final();
                 int boton1 = ConsoleInput.getInt();
 
-                if(boton1 == 1){
-                    System.out.println("Usando la escencia de slime derrotaste al dios demonio, enhorabuna");
-                    boton = (1>0)?3:0;
+                if(boton1 == 1)
+                {
+                    System.out.println(ansi().fg(WHITE).a("Usando la escencia de").fg(GREEN).a(" slime").fg(WHITE).a(" derrotaste al ").fg(YELLOW).a("DIOS DEMONIO").fg(WHITE).a(", enhorabuna").reset());
+                    boton = 3;
+                    System.out.println("");
+                    System.out.println(ansi().fg(YELLOW).a("Oprima 3 para volver al menu").reset());
+
+
+
+
                 }
-                if(boton1 == 2){
-                    boton = (1>0)?3:0;
-                }
+
             }
-            if(boton == 2){
+            if(boton == 2)
+            {
                 int valor_vida;
                 valor_vida = vida - 400;
-                System.out.println("Has huido del slime a cambio de tu vida, te queda " + valor_vida + " de vida");
+                System.out.println("Has huido del "+ ansi().fg(GREEN).a("slime").reset()+" a cambio de tu vida, te queda " + valor_vida + " de vida");
                 System.out.println("____________________________________________________________________________________________");
-                System.out.println("APARECIO EL DIOS DEMONIO DEL REINO DE URDAK, DECIDE RAPIDO");
+                System.out.println(ansi().fg(WHITE).a("APARECIO EL ").fg(YELLOW).a("DIOS DEMONIO").fg(WHITE).a(" DEL REINO DE URDAK, DECIDE RAPIDO").reset());
 
                 start_menu_final();
                 int boton2 = ConsoleInput.getInt();
 
-                if(boton2 == 1){
-                    System.out.println("El dios demonio te derrotó, mala suerte");
-                    boton = (1>0)?3:0;
-                }
-                if(boton2 == 2){
-                    boton = (1>0)?3:0;
+                if(boton2 == 1)
+                {
+
+                    System.out.println("El "+ ansi().fg(YELLOW).a("DIOS DEMONIO").reset()+" te derrotó, mala suerte");
+                    boton = 3;
+                    System.out.println("");
+                    System.out.println(ansi().fg(YELLOW).a("Oprima 3 para volver al menu").reset());
                 }
 
+
             }
-        }while(boton != 3);
+
+
+
     }
     //----------------------------------------------------------------------------------------Tildes-------------------------------------------------------------------------//
-    public static String convertirUnicode(String letra, String cadena) {
+    public static String convertirUnicode(String letra, String cadena)
+    {
 
         StringBuilder str = new StringBuilder(cadena);
         int indice = -1;
@@ -196,7 +214,8 @@ public class Programa {
         return str.toString();
     }
     //---------------------------------------------------------------------------- imprimir teniendo en cuenta las tildes-----------------------------------------------------------------//
-    public static void imprimir(String cadena) {
+    public static void imprimir(String cadena)
+    {
         String str;
         str = convertirUnicode("á", cadena);
         str = convertirUnicode("é", str);
@@ -218,14 +237,17 @@ public class Programa {
 
 
    //------------------------------------------------------------------------------Funcion para las letras de las canciones----------------------------------------------------------------//
-    public static StringBuilder obtenerLetraCancion(int inicio, int fin, String[] data) {
+    public static StringBuilder obtenerLetraCancion(int inicio, int fin, String[] data)
+    {
         StringBuilder str = new StringBuilder();
         StringTokenizer temp;
 
-        for (int i = inicio; i <= fin; i++) {
+        for (int i = inicio; i <= fin; i++)
+        {
             temp = new StringTokenizer(data[i], ";");
 
-            while (temp.hasMoreTokens()) {
+            while (temp.hasMoreTokens())
+            {
                 System.out.print(temp.nextToken() + " ");
             }
             System.out.println();
@@ -236,7 +258,8 @@ public class Programa {
 
 
    //------------------------------------------------------------------------------- Inicio Programa pincipal---------------------------------------------------------------------------------//
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Audio audio = new Audio();
         int opcion = 0, numero_cancion = 0, inicio_letra = 0, fin_letra = 0, seleccion = 0;
         String[] canciones;
@@ -246,7 +269,8 @@ public class Programa {
         canciones = ConsoleFile.readBigFile("recursos/letras.csv");
         info_canciones = ConsoleData.dataList(canciones);
 
-        try {
+        try
+        {
             System.out.println();
             menu();
 
@@ -254,88 +278,93 @@ public class Programa {
             do {
                 opcion = ConsoleInput.getInt();
 //--------------------------------------------------------------------------------------------Lista----------------------------------------------------------------------------//
-                if(opcion == 1){
+                if(opcion == 1)
+                {
                     File lista = new File("canciones");
                     String[] nombre = lista.list();
 
                     int a = 0;
-                    for(int i=0; i<nombre.length; i++){
-                        System.out.println(a + ". " + nombre[i]);
+                    for(int i=0; i<nombre.length; i++)
+                    {
+                        System.out.println(ansi().fg(CYAN).a(a).reset() + ". " + nombre[i]);
                         a++;
                     }
-                    
-                    System.out.println("Desea volver al menu si/no");
-                    Scanner datos7 = new Scanner(System.in);
-                    String respuesta7 = datos7.nextLine();
-                    respuesta7 = respuesta7.toLowerCase();
-                    if (respuesta7.equals("si")) {
+
+                    System.out.println("");
+                    System.out.println("Desea volver al menu "+ansi().fg(YELLOW).a("si").fg(WHITE).a("/").fg(CYAN).a("no").reset());
+                    String respuesta = ConsoleInput.getString();
+
+                    if (respuesta.equals("si"))
+                    {
                         System.out.println();
                         menu();
                     }
                 }
 
 //--------------------------------------------------------------------------------------------Reproduccion---------------------------------------------------------------------------//
-                if (opcion == 2) {
+                if (opcion == 2)
+                {
 
 
-                    String respuesta5;
+
 
                     System.out.println("");
                     System.out.println("");
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMM").fg(YELLOW).a("myosooyh").fg(WHITE).a("NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMM").fg(YELLOW).a("o`omhmmds").fg(WHITE).a("+/smMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMM").fg(YELLOW).a("o`sNNy:smmmmy//y").fg(WHITE).a("NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a("ho//++sss").fg(WHITE).a("NMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMM").fg(YELLOW).a("-.mNNdhh/odmmdh+").fg(WHITE).a(":omMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM").fg(YELLOW).a("do::+ydmdysy:-").fg(WHITE).a("NMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMM").fg(YELLOW).a("d`+mmmoNMNo:ymdddds").fg(WHITE).a(":+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a("h+-/ohmmmd+-smmd`o").fg(WHITE).a("MM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMM").fg(YELLOW).a("+`dmmmoMMMMm++dddmmds").fg(WHITE).a(":+mMMMMMMMMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a("ho-/sdmmmmmy-+mMNmm/-").fg(WHITE).a("NM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMM").fg(YELLOW).a("/`mNmdyMMMMMMd+ymmmmdds:o").fg(WHITE).a("NMMMMNNmmmmmmmmmNNMMMMMm").fg(YELLOW).a("y+/+sdmmmmmmh//dMMMMhmy`d").fg(WHITE).a("M").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMM").fg(YELLOW).a("+`mNmomMMMMMMMNssmmmmmmh:-+/////+++++++++++++oo:./ydmmmmmmmdo:yNMMMMMomh`yM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMM").fg(YELLOW).a("+`dmm+MMMMMMMMMMhoddmmmmyoyhhddmmmmmmmmmmmmmddhhys+ommmmmms:oNMMMMMMM/mm.oM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMM").fg(YELLOW).a("o`dNm/MMMMMMMMMdy:/odmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdddmmh:+dMMMMMMMMM+dm").fg(WHITE).a("-+M").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMM").fg(YELLOW).a("o`hNm+MMMMMMms//shmmdyyhdmmmmmddmmdmmmmmmmmmmmmdddmmmmmmdosyNMMMMMMMMohm").fg(WHITE).a("-/M").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMM").fg(YELLOW).a("y`yNmoMMMMh/:ohmmmh/ohdhysydmmmmmdohmmmmmmmmyooyhysmmmmmmmho/smMMMMMMsym").fg(WHITE).a("-/M").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMm").fg(YELLOW).a(".+mdsMNh/:sdmmmmmy/mNMMMNhoymmmmsd+mmmmmmd+omMMMm-mmmmmmmmmho:sNMMMMyym").fg(WHITE).a("-+M").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMM").fg(YELLOW).a("-:mdyd//ydmmmmmmmmdhhhhhhhh/ymmm/Modmmmmh+hmdhysshmmmmmmmmmmmh//dMMMyym").fg(WHITE).a("-oM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMo").fg(YELLOW).a(".mm/:smmmmdhysosssyyhdmmmmddmmyoMyhmmmmoyhhhhhddddmmmmmmmmmmmms-yNMhsm").fg(WHITE).a(".sM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMm").fg(YELLOW).a(":ymhdmmds+oydmNMMNNddysshdmmmm/dMmsmmmmmdys+osyyysssshdmmmmmmmmh/+Nyyd").fg(WHITE).a("`hM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMy").fg(YELLOW).a("+mmmdo/smMMMMMMMMMMMMMNhssdmd-MMMsmmhsosydNMMMMMMMMmhyoyhmmmmmmms/+dh").fg(WHITE).a("`NM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMN").fg(YELLOW).a("o-dmmy/yNMMMMMMMMMMMMMMMMMMdoyy+MMMsyosdNMMMMMMMMMMMMMMMMdsoydmmmmms:mh").fg(WHITE).a("-MM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMM").fg(YELLOW).a("+.hmmo/mMMMMMMMMMMMMMMMMMMMMMMhosMMMohNMMMMMMMMMMMMMMMMMMMMMNs/hmmmmdsm+s").fg(WHITE).a("MM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMs").fg(YELLOW).a("`ymmh-NMMMMMMMMMMNNNNMMMMMMMMMMNNMMNNMMMMMMMMMMMMMNmmNMMMMMMMMm/odmmmdo:").fg(WHITE).a("NMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMm").fg(YELLOW).a(".+mmm+yMMMMMMMMMMh:ohysNMMMMMMNdyo++oymMMMMMMMMMMNo/ydhomMMMMMMMN++mmmmy:").fg(WHITE).a("NMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMM").fg(YELLOW).a("o.dmmm:NMMMMMMMMMh`yMMMs/MMMMMN-`.......+MMMMMMMMM/`dMMM//MMMMMMMMN:ymmmmo/").fg(WHITE).a("NM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMM").fg(YELLOW).a("-+mmmm/mMMMMMMMMM/`/yho.`NMNMMMNo/---:/odMMMMMMMMy` -oo/`.NMMMMMMMMy/mmmmd.").fg(WHITE).a("sM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMN").fg(YELLOW).a(".smmmdh+MMMMMMMMM.``-...`NN:NMMMMMMMNMMMMMMMMNMMMo.:::....MMMMMMMMMd:mmmmm/:").fg(WHITE).a("M").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMM").fg(YELLOW).a("sodhdddysNMMMMMMM//hhhho/MMhsmMMMMNy+smMMMMmshMMMy:ddddho/MMMMMMMMMm/Nmmmm:-").fg(WHITE).a("M").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMM").fg(YELLOW).a("sh-dddddydMMMMMMh-hddd-mMMMMhhhysodMNdhhyyhNMMMMd.ddddd:dMMMMMMMMMssmmmmd.+").fg(WHITE).a("M").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMM").fg(YELLOW).a("y-ddddy+mMMMMMMMmsyyohMMMMMMMMMMMMMMMMMMMMMMMMMMs+hdh+hMMMMMMMMMd+mmmmm+`").fg(WHITE).a("mM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMM").fg(YELLOW).a("h.hddy/MMMMMMMMMMNMNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhhNNMMMMMMMMmyNmmmmy`").fg(WHITE).a("sMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMM").fg(YELLOW).a("s:yd/dMMMMMMMNNMNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMNNNNMMMMMMshNNNmds.").fg(WHITE).a("oMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMm").fg(YELLOW).a("+/:MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm-mmm+.").fg(WHITE).a("sdMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMM").fg(YELLOW).a("d++ymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-ds:").fg(WHITE).a("/mMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMM").fg(YELLOW).a("mdssymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh`").fg(WHITE).a("/smMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMN").fg(YELLOW).a("mhyyydmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhs+oym").fg(WHITE).a("NMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMMMMMNN").fg(YELLOW).a("mdyyyymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmdyoosh").fg(WHITE).a("mNMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMMMM").fg(YELLOW).a("//ydMMMMMMMMMMMMMMMMMMMMMMMMMMMN/y").fg(WHITE).a("hdNNMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMMM").fg(YELLOW).a("h.hmsdMMMMMMMMMMMMMMMMMMMMMMMMMdo-").fg(WHITE).a("hMMMMMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a(":/mmmyydNMMMMMMMMMMMMMMMMMMMmdyyds.").fg(WHITE).a("hMMMMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a("o:dmmmhoomMMMMMMMMMMMMMMMMNdyddmmmmo.").fg(WHITE).a("MMMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMN").fg(YELLOW).a("mmmmmmNNMMm/+dmmh+smMMMMMMMMMMMMMMMMMMMMh+dmmmmm+-").fg(WHITE).a("hMMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMM").fg(YELLOW).a("mho/osyso+/osy-ommmy+dMMMMMMMMMMMMMMMMMMMMMMMd/hmmmmm/-").fg(WHITE).a("mMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMN").fg(YELLOW).a("y/:ohdhsoshdNMNdo+hms+NMMMMMMMmNMMMMMMNMMMMMMMMMm:hmmmmd::").fg(WHITE).a("NMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MN").fg(YELLOW).a("s-:ymdyshmMMMMMMMMMd/o:mMMMMMMMMhsMMMMNodMMMMMMMMMMd:dmmmmh.o").fg(WHITE).a("MMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("N").fg(YELLOW).a("+.ommm+omMMMMMMMMMMMMNo-mMMMMMMMMm.dMMMo-NMMMMMMMMMMM-smmmmm+-").fg(WHITE).a("NMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(YELLOW).a("y.ommmmdy+sNMMMMMMMMMMMM+:NMMMMMMMM//MMN.+MMMMMMMMMMMm.hmmmmmh").fg(WHITE).a("//sNMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(YELLOW).a("o.hdssyhddmMMMMMMMMMMMMMN-oMMMMMMMMy.mMs.dMMMMMMMMMMM+:hsohmmmds").fg(WHITE).a("`/MMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(YELLOW).a("y.hd//NMMMMMMMMMMMMMMMMMMd.hMMMMMMMN-sN-/MMMMMMMMMMMh.:oydmmmmmd").fg(WHITE).a(":`dMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("N").fg(YELLOW).a("-omm//mMMMMMMMMMMMMMMMMMMs-NMMMMMMMo-s.dMMMMMMMMMMN./dmmmmmmmmm+.d").fg(WHITE).a("MMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("M").fg(YELLOW).a("d-ymms:sNMMMMMMMMMMMMMMMMMo+NMMMMMMN-.:MMMMMMMMMMM+-dmmmmmmmmmd--").fg(WHITE).a("NMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMm").fg(YELLOW).a("+od-shdMMMMMMMMMMMMNNmdys:+NMMMMMMo`yMMMMMMMMMMy.hNNmmmmmmmd+-").fg(WHITE).a("hMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMM").fg(YELLOW).a("hoo+oNMMMMMMNmhso+oosydmNMMMhMMyN+.NMMNMMmMMMm.oNNmmmmmmds/").fg(WHITE).a("sNMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMN").fg(YELLOW).a("dyssyyysssshmMMMMMMMmhdmm:Nm+s--MMsmMmyMMM:-hyyysyyys").fg(WHITE).a("ymMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a("mdhhhhmNssh:yy:syso").fg(WHITE).a("+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMM").fg(YELLOW).a("myosooyh").fg(WHITE).a("NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMM").fg(YELLOW).a("o`omhmmds").fg(WHITE).a("+/smMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMM").fg(YELLOW).a("o`sNNy:smmmmy//y").fg(WHITE).a("NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a("ho//++sss").fg(WHITE).a("NMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMM").fg(YELLOW).a("-.mNNdhh/odmmdh+").fg(WHITE).a(":omMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM").fg(YELLOW).a("do::+ydmdysy:-").fg(WHITE).a("NMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMM").fg(YELLOW).a("d`+mmmoNMNo:ymdddds").fg(WHITE).a(":+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a("h+-/ohmmmd+-smmd`o").fg(WHITE).a("MM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMM").fg(YELLOW).a("+`dmmmoMMMMm++dddmmds").fg(WHITE).a(":+mMMMMMMMMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a("ho-/sdmmmmmy-+mMNmm/-").fg(WHITE).a("NM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMM").fg(YELLOW).a("/`mNmdyMMMMMMd+ymmmmdds:o").fg(WHITE).a("NMMMMNNmmmmmmmmmNNMMMMMm").fg(YELLOW).a("y+/+sdmmmmmmh//dMMMMhmy`d").fg(WHITE).a("M").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMM").fg(YELLOW).a("+`mNmomMMMMMMMNssmmmmmmh:-+/////+++++++++++++oo:./ydmmmmmmmdo:yNMMMMMomh`yM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMM").fg(YELLOW).a("+`dmm+MMMMMMMMMMhoddmmmmyoyhhddmmmmmmmmmmmmmddhhys+ommmmmms:oNMMMMMMM/mm.oM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMM").fg(YELLOW).a("o`dNm/MMMMMMMMMdy:/odmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmdddmmh:+dMMMMMMMMM+dm").fg(WHITE).a("-+M").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMM").fg(YELLOW).a("o`hNm+MMMMMMms//shmmdyyhdmmmmmddmmdmmmmmmmmmmmmdddmmmmmmdosyNMMMMMMMMohm").fg(WHITE).a("-/M").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMM").fg(YELLOW).a("y`yNmoMMMMh/:ohmmmh/ohdhysydmmmmmdohmmmmmmmmyooyhysmmmmmmmho/smMMMMMMsym").fg(WHITE).a("-/M").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMm").fg(YELLOW).a(".+mdsMNh/:sdmmmmmy/mNMMMNhoymmmmsd+mmmmmmd+omMMMm-mmmmmmmmmho:sNMMMMyym").fg(WHITE).a("-+M").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMM").fg(YELLOW).a("-:mdyd//ydmmmmmmmmdhhhhhhhh/ymmm/Modmmmmh+hmdhysshmmmmmmmmmmmh//dMMMyym").fg(WHITE).a("-oM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMo").fg(YELLOW).a(".mm/:smmmmdhysosssyyhdmmmmddmmyoMyhmmmmoyhhhhhddddmmmmmmmmmmmms-yNMhsm").fg(WHITE).a(".sM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMm").fg(YELLOW).a(":ymhdmmds+oydmNMMNNddysshdmmmm/dMmsmmmmmdys+osyyysssshdmmmmmmmmh/+Nyyd").fg(WHITE).a("`hM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMy").fg(YELLOW).a("+mmmdo/smMMMMMMMMMMMMMNhssdmd-MMMsmmhsosydNMMMMMMMMmhyoyhmmmmmmms/+dh").fg(WHITE).a("`NM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMN").fg(YELLOW).a("o-dmmy/yNMMMMMMMMMMMMMMMMMMdoyy+MMMsyosdNMMMMMMMMMMMMMMMMdsoydmmmmms:mh").fg(WHITE).a("-MM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMM").fg(YELLOW).a("+.hmmo/mMMMMMMMMMMMMMMMMMMMMMMhosMMMohNMMMMMMMMMMMMMMMMMMMMMNs/hmmmmdsm+s").fg(WHITE).a("MM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMs").fg(YELLOW).a("`ymmh-NMMMMMMMMMMNNNNMMMMMMMMMMNNMMNNMMMMMMMMMMMMMNmmNMMMMMMMMm/odmmmdo:").fg(WHITE).a("NMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMm").fg(YELLOW).a(".+mmm+yMMMMMMMMMMh:ohysNMMMMMMNdyo++oymMMMMMMMMMMNo/ydhomMMMMMMMN++mmmmy:").fg(WHITE).a("NMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMM").fg(YELLOW).a("o.dmmm:NMMMMMMMMMh`yMMMs/MMMMMN-`.......+MMMMMMMMM/`dMMM//MMMMMMMMN:ymmmmo/").fg(WHITE).a("NM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMM").fg(YELLOW).a("-+mmmm/mMMMMMMMMM/`/yho.`NMNMMMNo/---:/odMMMMMMMMy` -oo/`.NMMMMMMMMy/mmmmd.").fg(WHITE).a("sM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMN").fg(YELLOW).a(".smmmdh+MMMMMMMMM.``-...`NN:NMMMMMMMNMMMMMMMMNMMMo.:::....MMMMMMMMMd:mmmmm/:").fg(WHITE).a("M").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMM").fg(YELLOW).a("sodhdddysNMMMMMMM//hhhho/MMhsmMMMMNy+smMMMMmshMMMy:ddddho/MMMMMMMMMm/Nmmmm:-").fg(WHITE).a("M").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMM").fg(YELLOW).a("sh-dddddydMMMMMMh-hddd-mMMMMhhhysodMNdhhyyhNMMMMd.ddddd:dMMMMMMMMMssmmmmd.+").fg(WHITE).a("M").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMM").fg(YELLOW).a("y-ddddy+mMMMMMMMmsyyohMMMMMMMMMMMMMMMMMMMMMMMMMMs+hdh+hMMMMMMMMMd+mmmmm+`").fg(WHITE).a("mM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMM").fg(YELLOW).a("h.hddy/MMMMMMMMMMNMNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhhNNMMMMMMMMmyNmmmmy`").fg(WHITE).a("sMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMM").fg(YELLOW).a("s:yd/dMMMMMMMNNMNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNMNNNNMMMMMMshNNNmds.").fg(WHITE).a("oMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMm").fg(YELLOW).a("+/:MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm-mmm+.").fg(WHITE).a("sdMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMM").fg(YELLOW).a("d++ymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-ds:").fg(WHITE).a("/mMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMM").fg(YELLOW).a("mdssymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh`").fg(WHITE).a("/smMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMMN").fg(YELLOW).a("mhyyydmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmhs+oym").fg(WHITE).a("NMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMMMMMMNN").fg(YELLOW).a("mdyyyymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmdyoosh").fg(WHITE).a("mNMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMMMM").fg(YELLOW).a("//ydMMMMMMMMMMMMMMMMMMMMMMMMMMMN/y").fg(WHITE).a("hdNNMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMMM").fg(YELLOW).a("h.hmsdMMMMMMMMMMMMMMMMMMMMMMMMMdo-").fg(WHITE).a("hMMMMMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a(":/mmmyydNMMMMMMMMMMMMMMMMMMMmdyyds.").fg(WHITE).a("hMMMMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a("o:dmmmhoomMMMMMMMMMMMMMMMMNdyddmmmmo.").fg(WHITE).a("MMMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMN").fg(YELLOW).a("mmmmmmNNMMm/+dmmh+smMMMMMMMMMMMMMMMMMMMMh+dmmmmm+-").fg(WHITE).a("hMMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMM").fg(YELLOW).a("mho/osyso+/osy-ommmy+dMMMMMMMMMMMMMMMMMMMMMMMd/hmmmmm/-").fg(WHITE).a("mMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMN").fg(YELLOW).a("y/:ohdhsoshdNMNdo+hms+NMMMMMMMmNMMMMMMNMMMMMMMMMm:hmmmmd::").fg(WHITE).a("NMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MN").fg(YELLOW).a("s-:ymdyshmMMMMMMMMMd/o:mMMMMMMMMhsMMMMNodMMMMMMMMMMd:dmmmmh.o").fg(WHITE).a("MMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("N").fg(YELLOW).a("+.ommm+omMMMMMMMMMMMMNo-mMMMMMMMMm.dMMMo-NMMMMMMMMMMM-smmmmm+-").fg(WHITE).a("NMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(YELLOW).a("y.ommmmdy+sNMMMMMMMMMMMM+:NMMMMMMMM//MMN.+MMMMMMMMMMMm.hmmmmmh").fg(WHITE).a("//sNMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(YELLOW).a("o.hdssyhddmMMMMMMMMMMMMMN-oMMMMMMMMy.mMs.dMMMMMMMMMMM+:hsohmmmds").fg(WHITE).a("`/MMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(YELLOW).a("y.hd//NMMMMMMMMMMMMMMMMMMd.hMMMMMMMN-sN-/MMMMMMMMMMMh.:oydmmmmmd").fg(WHITE).a(":`dMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("N").fg(YELLOW).a("-omm//mMMMMMMMMMMMMMMMMMMs-NMMMMMMMo-s.dMMMMMMMMMMN./dmmmmmmmmm+.d").fg(WHITE).a("MMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("M").fg(YELLOW).a("d-ymms:sNMMMMMMMMMMMMMMMMMo+NMMMMMMN-.:MMMMMMMMMMM+-dmmmmmmmmmd--").fg(WHITE).a("NMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMm").fg(YELLOW).a("+od-shdMMMMMMMMMMMMNNmdys:+NMMMMMMo`yMMMMMMMMMMy.hNNmmmmmmmd+-").fg(WHITE).a("hMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMM").fg(YELLOW).a("hoo+oNMMMMMMNmhso+oosydmNMMMhMMyN+.NMMNMMmMMMm.oNNmmmmmmds/").fg(WHITE).a("sNMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMN").fg(YELLOW).a("dyssyyysssshmMMMMMMMmhdmm:Nm+s--MMsmMmyMMM:-hyyysyyys").fg(WHITE).a("ymMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMN").fg(YELLOW).a("mdhhhhmNssh:yy:syso").fg(WHITE).a("+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMM").reset());
 
 
+                    String respuesta4;
                     do {
                         audio.detener();
 
@@ -345,38 +374,39 @@ public class Programa {
                         imprimir("Ingrese el número de la canción, entre 0 y " + (info_canciones.length - 1));
                         numero_cancion = ConsoleInput.getInt();
 
-                        System.out.println(ansi().eraseScreen().fg(CYAN).a("Nombre:").reset());
+                        System.out.println(ansi().fg(CYAN).a("Nombre:").reset());
                         imprimir(info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
                         audio.seleccionarCancion(info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
                         audio.reproducir();
 
                         System.out.println("");
-                        System.out.println(ansi().eraseScreen().fg(CYAN).a("Desea mirar la letra si/no").reset());
+                        System.out.println("Desea mirar la letra "+ansi().fg(YELLOW).a("si").fg(WHITE).a("/").fg(CYAN).a("no").reset());
 
-                        Scanner datos4 = new Scanner(System.in);
-                        String respuesta4 = datos4.nextLine();
-                        respuesta4 = respuesta4.toLowerCase();
-                        if (respuesta4.equals("si")) {
+                        String respuesta = ConsoleInput.getString();
+
+                        if (respuesta.equals("si"))
+                        {
                             inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
                             fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
                             letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);
                         }
 
                         System.out.println("");
-                        imprimir("Desea escuchar otra canción si/no ");
-                        Scanner datos5 = new Scanner(System.in);
-                        respuesta5 = datos5.nextLine();
-                        respuesta5 = respuesta5.toLowerCase();
+                        imprimir("Desea escuchar otra canción "+ansi().fg(YELLOW).a("si").fg(WHITE).a("/").fg(CYAN).a("no").reset());
 
-                    } while (respuesta5.equals("si"));
+
+                       respuesta4 = ConsoleInput.getString();
+
+                    } while (respuesta4.equals("si"));
 
                     System.out.println("");
-                    System.out.println("Desea volver al menu si/no");
+                    System.out.println("Desea volver al menu "+ansi().fg(YELLOW).a("si").fg(WHITE).a("/").fg(CYAN).a("no").reset());
 
-                    Scanner datos7 = new Scanner(System.in);
-                    String respuesta = datos7.nextLine();
-                    respuesta = respuesta.toLowerCase();
-                    if (respuesta.equals("si")) {
+
+                    String respuesta = ConsoleInput.getString();
+
+                    if (respuesta.equals("si"))
+                    {
                         System.out.println();
                         menu();
                         audio.detener();
@@ -385,8 +415,9 @@ public class Programa {
 
   //-----------------------------------------------------------------------------------------Letras--------------------------------------------------------------------------------//
 
-                if (opcion == 3) {
-                    String respuesta9;
+                if (opcion == 3)
+                {
+
 
                     System.out.println("");
                     System.out.println("");
@@ -444,11 +475,12 @@ public class Programa {
                     System.out.println("MMMMNNNdyso+ooooooooossyyys/+s.--::---::::::-------.....-/+sydNNNNNMNMNMMMMMMMMM");
 
 
+                    String respuesta2;
                     do {
                         System.out.println("");
                         imprimir("Ingrese el número de la canción, entre 0 y " + (info_canciones.length - 1));
                         numero_cancion = ConsoleInput.getInt();
-                        System.out.println(ansi().eraseScreen().fg(CYAN).a("Nombre:").reset());
+                        System.out.println(ansi().fg(CYAN).a("Nombre:").reset());
                         imprimir(info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
                         System.out.println("");
                         inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
@@ -458,19 +490,19 @@ public class Programa {
                         imprimir(letra_cancion.toString());
 
 
-                        imprimir("Desea ver otras letras de otra canción si/no ");
-                        Scanner datos5 = new Scanner(System.in);
-                        respuesta9 = datos5.nextLine();
-                        respuesta9 = respuesta9.toLowerCase();
-                        
-                    }while(respuesta9.equals("si"));
+                        imprimir("Desea ver otras letras de otra canción "+ansi().fg(YELLOW).a("si").fg(WHITE).a("/").fg(CYAN).a("no").reset());
+
+                        respuesta2 = ConsoleInput.getString();
+
+                    }while(respuesta2.equals("si"));
 
                     System.out.println("");
-                    System.out.println("Desea volver al menu si/no");
-                    Scanner datos1 = new Scanner(System.in);
-                    String respuesta1 = datos1.nextLine();
-                    respuesta1 = respuesta1.toLowerCase();
-                    if (respuesta1.equals("si")) {
+                    System.out.println("Desea volver al menu "+ansi().fg(YELLOW).a("si").fg(WHITE).a("/").fg(CYAN).a("no").reset());
+
+                    String respuesta = ConsoleInput.getString();
+
+                    if (respuesta.equals("si"))
+                    {
                         System.out.println();
                         menu();
                     }
@@ -478,61 +510,62 @@ public class Programa {
 
   //----------------------------------------------------------------------------------------------------------------------Random-----------------------------------------------------------//
 
-                if (opcion == 4) {
+                if (opcion == 4)
+                {
 
                     System.out.println("");
                     System.out.println("");
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMMMMMNNNNNNNNNNmmmmmmmmmmmmmmmmmmmmmmmmmm").fg(GREEN).a("ho:-:/++/:/y").fg(WHITE).a("NMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMN").fg(GREEN).a("y+::::----/").fg(WHITE).a("sdmmmmmmmmmmmmmmmmmmmmmmmmmmmd").fg(GREEN).a("/:ymMMMMMMMmo-s").fg(WHITE).a("NMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMm").fg(GREEN).a("+.-sdNMMMMNmy+-:").fg(WHITE).a("ymmmmmmmmmmmmmmmmmmmmmmmmy").fg(GREEN).a("-yMMMMMMmsdMMMm/:d").fg(WHITE).a("MMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMM").fg(GREEN).a("d.:dMMMMMMMMMMMMNy.").fg(WHITE).a("-ymmmmmmmmmmmmddddmmmmmm").fg(GREEN).a("-sMMMMMMs.sNMMMMNo-m").fg(WHITE).a("MMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMN").fg(GREEN).a("y`sMMMMMMMMMMMMMMMMN/`/hho+//::::------::///.ohdNMMo.hMMMMMMMN+:m").fg(WHITE).a("NNMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMNNN").fg(GREEN).a("h`yMMMMMMMMmsyNMMMMMMN+`-oydNNMMMNmmmmmmNMMNNmdhsosd.yMMMMMMMMMm.hm").fg(WHITE).a("NNNNMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MNNmmm").fg(GREEN).a("+:MMMMMMMMMMNh/sNMMMMMNmMMMMMMMMMMNmmmmmmMMMMMMMMMMdss+++yMMMMMN:s").fg(WHITE).a("NmmmNNMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("Nmmmmm").fg(GREEN).a(":+MMMMMMMMMMMMNs:NMMMMMMMMMMMMMMMMMNmmmmmNMMMMMMMMMMMMMm--mMMMMN-y").fg(WHITE).a("mmmmmmNN").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmmmmm").fg(GREEN).a(":/MMMMMMMMMdoosy//MMMMMMMMMMMMMMMMMMmmmmmmMMMMMMMMMMMMMMNhoNMMN/.").fg(WHITE).a("mmmmmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmmmmms").fg(GREEN).a("`mMMMMMMMdo-.sNmNMMMMMMMMMMMMMMMMMMMmmmmmNMMMMMMMMMMMMMMMMm+s--").fg(WHITE).a("hmmmmmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmmmmmm").fg(GREEN).a("::NMMMMMNhmNMMMMMMMMMMMMMMMMMMMMMMMMNmmmmmMMMMMMMMMMMMMMMMMm/`").fg(WHITE).a("smmmmmmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmmmNmmm").fg(GREEN).a("/-smMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmmmmmMMMMMMMMMMMMMMMMMMMy-").fg(WHITE).a("smmmmmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmmmNmmm").fg(GREEN).a("/.sNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmmmNMMMMMMMMMMMMMMMMMMMMN/").fg(WHITE).a("+mmmmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmmmmmd").fg(GREEN).a(":+NMMMMMMMMMMMMMMMMMMMMMmyshNMMMMMMMMMMNMMMMMMMMMy+omMMMMMMMMMMMo/").fg(WHITE).a("mmmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmmmm").fg(GREEN).a("d:sMMMMMMMMMMMMMMMMMMMMMMd.`` /NMMMMMMMMMMMMMMMMMMM`` .dMMMMMMMMMMM:o").fg(WHITE).a("mmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmmm").fg(GREEN).a("d-sMMysosyhmNMMMMMMMMMMMMMm-` `+NMMMMMMMMMmmMMMMMMMMh/:+NmyshNMMMMMMh.oo++++").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmN").fg(GREEN).a("d-yMMMMMMNmhyooomMMMMMMMMMMMMmdmMMMMMMMd+//++///hMMMNs+oo+.syo-yMMMdsy+-").fg(WHITE).a("dmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mm").fg(GREEN).a("d:sMMMMMMMMMMMNmmNMMMMMMMMMMMMMMMMMMMMMMMs:hhho.hMMMN:/ddho:hdd/.ymMMMMm.").fg(WHITE).a("hmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mm").fg(GREEN).a(":oMMMMMMMNho+oshmNMMMMMMMMMMMMMMMMMMMMMMMNyo++smMMMMMo-shhdhddd++/.yMNhy.y").fg(WHITE).a("mmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("m").fg(GREEN).a("+/NMMMMMh//ymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/`.:+hdddhdd-:MNms.+++sd").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("h").fg(GREEN).a(".mMMMMMMMNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdo +dddhohd:.:omMMM/+mNmy+").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("-sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo:+h:.+ys:`:yo.dMMMMh-d").fg(WHITE).a("mmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("-NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd+/hNMMMmysymh+/+dMMMMm-y").fg(WHITE).a("Nmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdsssyhmMMMMMm/:hMMMMMMMMMMMMMMMMMMMMo:").fg(WHITE).a("Nmmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNmdyo/+dMy`-+ossdMMMMMMMMMMMMMMMMMm.d").fg(WHITE).a("Nmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNd-..yNNMMMMMMMMMMMMMMMMMMMMMM++").fg(WHITE).a("mmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNmdo.:.ymNMMMMMMMMMMMMMMMMMMMMMMN-").fg(WHITE).a("ymmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMhyyso+/:.-dMmo//oydmNMMMMMMMMMMMMMMMMMMh-").fg(WHITE).a("dNmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdddmNNMm/mMMMMMMNdysyMMMMMMMMMMMMMMMMMMM+").fg(WHITE).a("/mmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN-hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm-").fg(WHITE).a("ymmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy-NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+/").fg(WHITE).a("mmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+/MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd-").fg(WHITE).a("hmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMysMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN:").fg(WHITE).a("omm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs:").fg(WHITE).a("mm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy").fg(WHITE).a("-mm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a(":NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs").fg(WHITE).a("-mm").reset());
-                    System.out.println(ansi().eraseScreen().fg(GREEN).a("::mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm-").fg(WHITE).a("omm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("m").fg(GREEN).a(":-dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm:").fg(WHITE).a("+mmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mm").fg(GREEN).a("+.hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd-").fg(WHITE).a("ommmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmmy").fg(GREEN).a(":+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm/").fg(WHITE).a(":hmmmmm").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmmmm").fg(GREEN).a("o-omMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh/-").fg(WHITE).a("ymmmmmmN").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("mmmmmmm").fg(GREEN).a("o-:sdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNds/:os-/").fg(WHITE).a("dmmNNNM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("NmNmmmmo").fg(GREEN).a(":yho/:+shmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNMNNmddhys++++/:ymNNNy-").fg(WHITE).a("dNMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMNNNNs").fg(GREEN).a("-mNNNmy/-ooo++++++++++++++++++/////////::::::/++ossyhdmmmmmdo/+syy:y").fg(WHITE).a("MMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMd//////odNmmmmmmmNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNNNNNdhhmMMMMMM").reset());
-
-
-                    String respuesta8;
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMMMMMMNNNNNNNNNNmmmmmmmmmmmmmmmmmmmmmmmmmm").fg(GREEN).a("ho:-:/++/:/y").fg(WHITE).a("NMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMN").fg(GREEN).a("y+::::----/").fg(WHITE).a("sdmmmmmmmmmmmmmmmmmmmmmmmmmmmd").fg(GREEN).a("/:ymMMMMMMMmo-s").fg(WHITE).a("NMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMm").fg(GREEN).a("+.-sdNMMMMNmy+-:").fg(WHITE).a("ymmmmmmmmmmmmmmmmmmmmmmmmy").fg(GREEN).a("-yMMMMMMmsdMMMm/:d").fg(WHITE).a("MMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMM").fg(GREEN).a("d.:dMMMMMMMMMMMMNy.").fg(WHITE).a("-ymmmmmmmmmmmmddddmmmmmm").fg(GREEN).a("-sMMMMMMs.sNMMMMNo-m").fg(WHITE).a("MMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMN").fg(GREEN).a("y`sMMMMMMMMMMMMMMMMN/`/hho+//::::------::///.ohdNMMo.hMMMMMMMN+:m").fg(WHITE).a("NNMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMNNN").fg(GREEN).a("h`yMMMMMMMMmsyNMMMMMMN+`-oydNNMMMNmmmmmmNMMNNmdhsosd.yMMMMMMMMMm.hm").fg(WHITE).a("NNNNMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MNNmmm").fg(GREEN).a("+:MMMMMMMMMMNh/sNMMMMMNmMMMMMMMMMMNmmmmmmMMMMMMMMMMdss+++yMMMMMN:s").fg(WHITE).a("NmmmNNMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("Nmmmmm").fg(GREEN).a(":+MMMMMMMMMMMMNs:NMMMMMMMMMMMMMMMMMNmmmmmNMMMMMMMMMMMMMm--mMMMMN-y").fg(WHITE).a("mmmmmmNN").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmmmmm").fg(GREEN).a(":/MMMMMMMMMdoosy//MMMMMMMMMMMMMMMMMMmmmmmmMMMMMMMMMMMMMMNhoNMMN/.").fg(WHITE).a("mmmmmmmmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmmmmms").fg(GREEN).a("`mMMMMMMMdo-.sNmNMMMMMMMMMMMMMMMMMMMmmmmmNMMMMMMMMMMMMMMMMm+s--").fg(WHITE).a("hmmmmmmmmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmmmmmm").fg(GREEN).a("::NMMMMMNhmNMMMMMMMMMMMMMMMMMMMMMMMMNmmmmmMMMMMMMMMMMMMMMMMm/`").fg(WHITE).a("smmmmmmmmmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmmmNmmm").fg(GREEN).a("/-smMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmmmmmMMMMMMMMMMMMMMMMMMMy-").fg(WHITE).a("smmmmmmmmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmmmNmmm").fg(GREEN).a("/.sNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmmmNMMMMMMMMMMMMMMMMMMMMN/").fg(WHITE).a("+mmmmmmmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmmmmmd").fg(GREEN).a(":+NMMMMMMMMMMMMMMMMMMMMMmyshNMMMMMMMMMMNMMMMMMMMMy+omMMMMMMMMMMMo/").fg(WHITE).a("mmmmmmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmmmm").fg(GREEN).a("d:sMMMMMMMMMMMMMMMMMMMMMMd.`` /NMMMMMMMMMMMMMMMMMMM`` .dMMMMMMMMMMM:o").fg(WHITE).a("mmmmmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmmm").fg(GREEN).a("d-sMMysosyhmNMMMMMMMMMMMMMm-` `+NMMMMMMMMMmmMMMMMMMMh/:+NmyshNMMMMMMh.oo++++").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmN").fg(GREEN).a("d-yMMMMMMNmhyooomMMMMMMMMMMMMmdmMMMMMMMd+//++///hMMMNs+oo+.syo-yMMMdsy+-").fg(WHITE).a("dmmmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mm").fg(GREEN).a("d:sMMMMMMMMMMMNmmNMMMMMMMMMMMMMMMMMMMMMMMs:hhho.hMMMN:/ddho:hdd/.ymMMMMm.").fg(WHITE).a("hmmmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mm").fg(GREEN).a(":oMMMMMMMNho+oshmNMMMMMMMMMMMMMMMMMMMMMMMNyo++smMMMMMo-shhdhddd++/.yMNhy.y").fg(WHITE).a("mmmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("m").fg(GREEN).a("+/NMMMMMh//ymMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/`.:+hdddhdd-:MNms.+++sd").reset());
+                    System.out.println(ansi().fg(WHITE).a("h").fg(GREEN).a(".mMMMMMMMNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdo +dddhohd:.:omMMM/+mNmy+").reset());
+                    System.out.println(ansi().fg(GREEN).a("-sMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmo:+h:.+ys:`:yo.dMMMMh-d").fg(WHITE).a("mmmmm").reset());
+                    System.out.println(ansi().fg(GREEN).a("-NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd+/hNMMMmysymh+/+dMMMMm-y").fg(WHITE).a("Nmmmmm").reset());
+                    System.out.println(ansi().fg(GREEN).a("hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdsssyhmMMMMMm/:hMMMMMMMMMMMMMMMMMMMMo:").fg(WHITE).a("Nmmmmmm").reset());
+                    System.out.println(ansi().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNmdyo/+dMy`-+ossdMMMMMMMMMMMMMMMMMm.d").fg(WHITE).a("Nmmmmm").reset());
+                    System.out.println(ansi().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNNd-..yNNMMMMMMMMMMMMMMMMMMMMMM++").fg(WHITE).a("mmmmmm").reset());
+                    System.out.println(ansi().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNmdo.:.ymNMMMMMMMMMMMMMMMMMMMMMMN-").fg(WHITE).a("ymmmmm").reset());
+                    System.out.println(ansi().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMhyyso+/:.-dMmo//oydmNMMMMMMMMMMMMMMMMMMh-").fg(WHITE).a("dNmmm").reset());
+                    System.out.println(ansi().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMdddmNNMm/mMMMMMMNdysyMMMMMMMMMMMMMMMMMMM+").fg(WHITE).a("/mmmm").reset());
+                    System.out.println(ansi().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN-hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm-").fg(WHITE).a("ymmm").reset());
+                    System.out.println(ansi().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy-NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+/").fg(WHITE).a("mmm").reset());
+                    System.out.println(ansi().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM+/MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd-").fg(WHITE).a("hmm").reset());
+                    System.out.println(ansi().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMysMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMN:").fg(WHITE).a("omm").reset());
+                    System.out.println(ansi().fg(GREEN).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs:").fg(WHITE).a("mm").reset());
+                    System.out.println(ansi().fg(GREEN).a("mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy").fg(WHITE).a("-mm").reset());
+                    System.out.println(ansi().fg(GREEN).a(":NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMs").fg(WHITE).a("-mm").reset());
+                    System.out.println(ansi().fg(GREEN).a("::mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm-").fg(WHITE).a("omm").reset());
+                    System.out.println(ansi().fg(WHITE).a("m").fg(GREEN).a(":-dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm:").fg(WHITE).a("+mmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mm").fg(GREEN).a("+.hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd-").fg(WHITE).a("ommmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmmy").fg(GREEN).a(":+mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm/").fg(WHITE).a(":hmmmmm").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmmmm").fg(GREEN).a("o-omMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh/-").fg(WHITE).a("ymmmmmmN").reset());
+                    System.out.println(ansi().fg(WHITE).a("mmmmmmm").fg(GREEN).a("o-:sdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNds/:os-/").fg(WHITE).a("dmmNNNM").reset());
+                    System.out.println(ansi().fg(WHITE).a("NmNmmmmo").fg(GREEN).a(":yho/:+shmNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNMNNmddhys++++/:ymNNNy-").fg(WHITE).a("dNMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMNNNNs").fg(GREEN).a("-mNNNmy/-ooo++++++++++++++++++/////////::::::/++ossyhdmmmmmdo/+syy:y").fg(WHITE).a("MMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMd//////odNmmmmmmmNmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmNNNNNNNdhhmMMMMMM").reset());
 
 
 
+
+
+                    String respuesta3;
                     do {
                         audio.detener();
 
@@ -543,38 +576,34 @@ public class Programa {
                         audio.reproducir();
 
                         System.out.println("");
-                        System.out.println(ansi().eraseScreen().fg(CYAN).a("Nombre:").reset());
+                        System.out.println(ansi().fg(CYAN).a("Nombre:").reset());
                         imprimir(info_canciones[numero_cancion1][ConsoleData.NOMBRE_CANCION]);
 
                         System.out.println("");
-                        System.out.println("Desea mirar la letra si/no");
+                        System.out.println("Desea mirar la letra "+ansi().fg(YELLOW).a("si").fg(WHITE).a("/").fg(CYAN).a("no").reset());
                         System.out.println("");
 
-                        Scanner datos6 = new Scanner(System.in);
-                        String respuesta6 = datos6.nextLine();
-                        respuesta6 = respuesta6.toLowerCase();
+                        String respuesta = ConsoleInput.getString();
 
-                        if (respuesta6.equals("si")) {
+                        if (respuesta.equals("si")) {
                             inicio_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.INICIO_CANCION]);
                             fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
                             letra_cancion = obtenerLetraCancion(inicio_letra, fin_letra, canciones);
                         }
                         System.out.println("");
-                        imprimir("Desea escuchar otra canción si/no ");
-                        Scanner datos5 = new Scanner(System.in);
-                        respuesta8 = datos5.nextLine();
-                        respuesta8 = respuesta8.toLowerCase();
+                        imprimir("Desea escuchar otra "+ansi().fg(YELLOW).a("si").fg(WHITE).a("/").fg(CYAN).a("no").reset());
 
+                           respuesta3 = ConsoleInput.getString();
 
-                    }while(respuesta8.equals("si"));
+                    }while(respuesta3.equals("si"));
 
                     System.out.println("");
-                    System.out.println("Desea volver al menu si/no");
+                    System.out.println("Desea volver al menu "+ansi().fg(YELLOW).a("si").fg(WHITE).a("/").fg(CYAN).a("no").reset());
 
-                    Scanner datos2 = new Scanner(System.in);
-                    String respuesta2 = datos2.nextLine();
-                    respuesta2 = respuesta2.toLowerCase();
-                    if (respuesta2.equals("si")) {
+
+                    String respuesta = ConsoleInput.getString();
+
+                    if (respuesta.equals("si")) {
                         audio.detener();
                         System.out.println();
                         menu();
@@ -583,37 +612,38 @@ public class Programa {
 
  //------------------------------------------------------------------------------------------------------Indice--------------------------------------------------------------------------//
 
-                if (opcion == 5) {
+                if (opcion == 5)
+                {
 
 
                     System.out.println("");
                     System.out.println("");
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMM").fg(RED).a("mhsoooooooooooooooosh").fg(WHITE).a("mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMMMM").fg(RED).a("myoooydNMMMMMMMMMMMMMMMMNdyoooymddhhyyyyyhhd").fg(WHITE).a("NMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMM").fg(RED).a("mo+sdMMMMMMMMMMMMMMMMMMMMMMMMMMMMdyhddmmmmmmmds").fg(WHITE).a(":MMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(RED).a("MmhsoooooooooosmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNmmdddmNh").fg(WHITE).a(":MMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(RED).a("h-dNNNNNNmNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmmddM").fg(WHITE).a("s+MMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("M").fg(RED).a("+oMmdddmNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmdmM").fg(WHITE).a("/hMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MM").fg(RED).a("/sMmdmmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNm").fg(WHITE).a("-MMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMM").fg(RED).a("+oMmmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/").fg(WHITE).a("yMMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMM").fg(RED).a("o/NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd").fg(WHITE).a("-NMMMMMMMMMMMMMMmyyN").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMN").fg(RED).a("-mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyymMMMMMMMMMMMMMMMy/").fg(WHITE).a("MMMMMMMMMMMMM").fg(RED).a("o+md.").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMM").fg(RED).a("s+MMMMMMMMMMMMMMMs:-/mMMMMMMMMMMMMMMd....dMMMMMMMMMMMMMMM:").fg(WHITE).a("dMMMMMMMMMM").fg(RED).a("m/sMMd-").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMM").fg(RED).a("++MMMMMMMNddhhhhy....oMMMyNMhodMMoMMN+--+NMMMMMMMMMMMMMMMs/h").fg(WHITE).a("NMMMMM").fg(RED).a("ds+omMNs:m").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMM").fg(RED).a("d-NMMMMMMMMMMMMMMMMh/yMMMMdyydMdyydMMMMMMMMMMMMMMMMMMMMMMMh-hs+sNm/smMNho+h").fg(WHITE).a("MM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMM").fg(RED).a("/yMMMMMMMMMMMMMMMMMMMhyMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh:MMMmo-hMNo+h").fg(WHITE).a("MMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMM").fg(RED).a(":dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMooMMMMMN+o:h").fg(WHITE).a("MMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMM").fg(RED).a("+sMMMMmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd-NMMMMMMMh:").fg(WHITE).a("NMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMm").fg(RED).a("-mMMMMsydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm:dMMMMMMMMMd:").fg(WHITE).a("NMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMM").fg(RED).a("m:yMMM-mMddddhhdMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs/mMMMMMMMMMMMy:sood").fg(WHITE).a("MM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMM").fg(RED).a("s/yN/sMMMMMMMd/hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMms/hMMMMMMMMMMMMMMmMMm-").fg(WHITE).a("MM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMM").fg(RED).a("do+--sMMMMMMN.MMMMMMMMMMMMMMMMMMMMMMMMMMMMNmyo+smMMMMMMMMMMMMMMMMMMm+s").fg(WHITE).a("MM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMN").fg(RED).a("o/NMMMMMM.NMMMMMMMMMMMMMMMMMMmyssooooooydMMMMMMMMMMMMMMMMMMMds+om").fg(WHITE).a("NNN").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMNN").fg(RED).a("d-NMMMMMMo+MMMMMMMMMMMMMMMMMMMMmNNNsMMMMMMmMMMMMMMMMMMMMNhsooym").fg(WHITE).a("NNNNNM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMNNNNNNN").fg(RED).a("+sMMMMMMMmMMNMMMMMMMMMMMMMMdsossssosMMMMMM+sMMMMMNmhyoooshm").fg(WHITE).a("NNNMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMNNNNNN").fg(RED).a("y/dMMMMMmyo+oooooosssyyyys++NMMMMMMMMMMMMMs:ssooooshm").fg(WHITE).a("NMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMNNNN").fg(RED).a("myooooosdNNNNNNNNNNmmmmmN+oNMMMMMMMMMMMMh:hm").fg(WHITE).a("NNNNMMMMMMMMMMMMMMMMMMMM").reset());
-                    System.out.println(ansi().eraseScreen().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNN").fg(RED).a("hoooooooooooooy").fg(WHITE).a("NNNNMMMMMMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMM").fg(RED).a("mhsoooooooooooooooosh").fg(WHITE).a("mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMMMMM").fg(RED).a("myoooydNMMMMMMMMMMMMMMMMNdyoooymddhhyyyyyhhd").fg(WHITE).a("NMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMM").fg(RED).a("mo+sdMMMMMMMMMMMMMMMMMMMMMMMMMMMMdyhddmmmmmmmds").fg(WHITE).a(":MMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(RED).a("MmhsoooooooooosmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNmmdddmNh").fg(WHITE).a(":MMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(RED).a("h-dNNNNNNmNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmmddM").fg(WHITE).a("s+MMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("M").fg(RED).a("+oMmdddmNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmdmM").fg(WHITE).a("/hMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MM").fg(RED).a("/sMmdmmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNm").fg(WHITE).a("-MMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMM").fg(RED).a("+oMmmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM/").fg(WHITE).a("yMMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMM").fg(RED).a("o/NMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd").fg(WHITE).a("-NMMMMMMMMMMMMMMmyyN").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMN").fg(RED).a("-mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMmyymMMMMMMMMMMMMMMMy/").fg(WHITE).a("MMMMMMMMMMMMM").fg(RED).a("o+md.").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMM").fg(RED).a("s+MMMMMMMMMMMMMMMs:-/mMMMMMMMMMMMMMMd....dMMMMMMMMMMMMMMM:").fg(WHITE).a("dMMMMMMMMMM").fg(RED).a("m/sMMd-").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMM").fg(RED).a("++MMMMMMMNddhhhhy....oMMMyNMhodMMoMMN+--+NMMMMMMMMMMMMMMMs/h").fg(WHITE).a("NMMMMM").fg(RED).a("ds+omMNs:m").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMM").fg(RED).a("d-NMMMMMMMMMMMMMMMMh/yMMMMdyydMdyydMMMMMMMMMMMMMMMMMMMMMMMh-hs+sNm/smMNho+h").fg(WHITE).a("MM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMM").fg(RED).a("/yMMMMMMMMMMMMMMMMMMMhyMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMh:MMMmo-hMNo+h").fg(WHITE).a("MMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMM").fg(RED).a(":dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMooMMMMMN+o:h").fg(WHITE).a("MMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMM").fg(RED).a("+sMMMMmMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMd-NMMMMMMMh:").fg(WHITE).a("NMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMm").fg(RED).a("-mMMMMsydNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMm:dMMMMMMMMMd:").fg(WHITE).a("NMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMM").fg(RED).a("m:yMMM-mMddddhhdMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNs/mMMMMMMMMMMMy:sood").fg(WHITE).a("MM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMM").fg(RED).a("s/yN/sMMMMMMMd/hMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMms/hMMMMMMMMMMMMMMmMMm-").fg(WHITE).a("MM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMM").fg(RED).a("do+--sMMMMMMN.MMMMMMMMMMMMMMMMMMMMMMMMMMMMNmyo+smMMMMMMMMMMMMMMMMMMm+s").fg(WHITE).a("MM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMN").fg(RED).a("o/NMMMMMM.NMMMMMMMMMMMMMMMMMMmyssooooooydMMMMMMMMMMMMMMMMMMMds+om").fg(WHITE).a("NNN").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMNN").fg(RED).a("d-NMMMMMMo+MMMMMMMMMMMMMMMMMMMMmNNNsMMMMMMmMMMMMMMMMMMMMNhsooym").fg(WHITE).a("NNNNNM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMNNNNNNN").fg(RED).a("+sMMMMMMMmMMNMMMMMMMMMMMMMMdsossssosMMMMMM+sMMMMMNmhyoooshm").fg(WHITE).a("NNNMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMNNNNNN").fg(RED).a("y/dMMMMMmyo+oooooosssyyyys++NMMMMMMMMMMMMMs:ssooooshm").fg(WHITE).a("NMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMNNNN").fg(RED).a("myooooosdNNNNNNNNNNmmmmmN+oNMMMMMMMMMMMMh:hm").fg(WHITE).a("NNNNMMMMMMMMMMMMMMMMMMMM").reset());
+                    System.out.println(ansi().fg(WHITE).a("MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNNN").fg(RED).a("hoooooooooooooy").fg(WHITE).a("NNNNMMMMMMMMMMMMMMMMMMMMMMM").reset());
 
                     imprimir("Ingrese indice de la canción, entre 0 y " + (info_canciones.length-1 ));
                     numero_cancion = ConsoleInput.getInt();
@@ -621,58 +651,73 @@ public class Programa {
                     fin_letra = ConsoleInput.stringToInt(info_canciones[numero_cancion][ConsoleData.FIN_CANCION]);
                     System.out.println();
 
-                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Nombre :").reset());
+                    System.out.println(ansi().fg(CYAN).a("Nombre :").reset());
                     imprimir(info_canciones[numero_cancion][ConsoleData.NOMBRE_CANCION]);
-                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Autor  :").reset());
+                    System.out.println(ansi().fg(CYAN).a("Autor  :").reset());
                     imprimir(info_canciones[numero_cancion][ConsoleData.AUTOR_CANCION]);
-                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Archivo:").reset());
+                    System.out.println(ansi().fg(CYAN).a("Archivo:").reset());
                     imprimir(info_canciones[numero_cancion][ConsoleData.RUTA_CANCION]);
-                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Album  :").reset());
+                    System.out.println(ansi().fg(CYAN).a("Album  :").reset());
                     imprimir(info_canciones[numero_cancion][ConsoleData.ALBUM_CANCION]);
-                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Año    :").reset());
+                    System.out.println(ansi().fg(CYAN).a("Año    :").reset());
                     imprimir(info_canciones[numero_cancion][ConsoleData.ANO_CANCION]);
-                    System.out.println(ansi().eraseScreen().fg(CYAN).a("Link:  :").reset());
+                    System.out.println(ansi().fg(CYAN).a("Link:  :").reset());
                     imprimir(info_canciones[numero_cancion][ConsoleData.RUTA_LINK]);
 
                     System.out.println("");
-                    System.out.println("Desea volver al menu si/no");
-                    Scanner datos3 = new Scanner(System.in);
-                    String respuesta3 = datos3.nextLine();
-                    respuesta3 = respuesta3.toLowerCase();
-                    if(respuesta3.equals("si")){
+                    System.out.println("Desea volver al menu "+ansi().fg(YELLOW).a("si").fg(WHITE).a("/").fg(CYAN).a("no").reset());
+
+                    String respuesta = ConsoleInput.getString();
+
+                    if(respuesta.equals("si"))
+                    {
                         System.out.println();
-                        menu();}
+                        menu();
+                    }
                 }
-                if(opcion == 1234){
-                    
+
+
+                if(opcion == 666)
+                {
+                    audio.seleccionarCancion(info_canciones[0][ConsoleData.RUTA_CANCION]);
+                    audio.reproducir();
                     menu1();
                     do{
                         seleccion = ConsoleInput.getInt();
-                        if(seleccion == 1){
+                        if(seleccion == 1)
+                        {
+
                             start();
-                            menu();
+
                         }
-                        if(seleccion == 2){
+                        if(seleccion == 2)
+                        {
                             reglas();
                             int seleccion2 = 0;
                             seleccion2 = ConsoleInput.getInt();
-                            if(seleccion2 == 1){
+                            if(seleccion2 == 1)
+                            {
                                 start();
                             }
-                            if(seleccion2 == 2){
-                                menu();
+                            if(seleccion2 == 2)
+                            {
+                               seleccion = 3;
                             } 
                         }
                     }while(seleccion != 3);
+                    audio.detener();
                     menu();
                 }
                 
  //-----------------------------------------------------------------------------------------------------------------------Salir-------------------------------------------------------------------//
 
             } while (opcion != 6);
-        } catch (Exception e) {
+        } catch (Exception e)
+        {
             System.out.println(e);
-        } finally {
+        }
+        finally
+        {
             audio.detener();
         }
     }
