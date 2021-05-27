@@ -86,7 +86,7 @@
 
   Errores al momento de crear las funciones
   
-## 20 de Mayo del 2021 
+## 19 de Mayo del 2021 
 
 - ¿Qué hemos hecho?
 
@@ -99,3 +99,18 @@
 - ¿Qué dificultades tenemos?
 
    Un problemita con unas canciones
+   
+ ## 20 de Mayo del 2021 
+
+- ¿Qué hemos hecho?
+
+   Agregamos un minijuego y la personalizacion atraves de dibujos y colores
+   
+- ¿Qué vamos a hacer?
+
+   Solucionar los errores que nos quedan y exponer
+   
+- ¿Qué dificultades tenemos?
+
+   Ninguna
+
