@@ -86,7 +86,7 @@
 
   Errores al momento de crear las funciones
   
-  ## 20 de Mayo del 2021 
+## 20 de Mayo del 2021 
 
 - ¿Qué hemos hecho?
 
