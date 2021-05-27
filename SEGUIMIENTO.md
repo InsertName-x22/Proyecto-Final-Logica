@@ -85,3 +85,17 @@
 - ¿Qué dificultades tenemos?
 
   Errores al momento de crear las funciones
+  
+  ## 20 de Mayo del 2021 
+
+- ¿Qué hemos hecho?
+
+   Terminamos de cuadrar todas las funciones y pusimos los ciclos ademas de las pequeñas opciones de retorno
+   
+- ¿Qué vamos a hacer?
+
+   Agregarle personalizacion
+   
+- ¿Qué dificultades tenemos?
+
+   Un problemita con unas canciones
